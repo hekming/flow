@@ -1,0 +1,1732 @@
+{
+  "nodeList": [
+    {
+      "code": "*",
+      "type": "Subtract",
+      "nodeName": "差操作",
+      "className": "布尔运算",
+      "description": "",
+      "hidden": false,
+      "belongTo": "OperateNodeType",
+      "paramsId": "*",
+      "id": "Subtract-d06905b6f3ff4e3b8eb878729ab43b49",
+      "height": 50,
+      "x": 410,
+      "width": 120,
+      "y": 40
+    },
+    {
+      "code": "+",
+      "type": "Intersection",
+      "nodeName": "交操作",
+      "className": "布尔运算",
+      "description": "",
+      "hidden": false,
+      "belongTo": "OperateNodeType",
+      "paramsId": "+",
+      "id": "Intersection-1c144888ce874526848e126cd4d6d28d",
+      "height": 50,
+      "x": 430,
+      "width": 120,
+      "y": 215
+    },
+    {
+      "code": "100",
+      "type": "Cube",
+      "nodeName": "立方体",
+      "className": "基本体",
+      "description": "",
+      "hidden": false,
+      "belongTo": "CommonNodeType",
+      "elementData": [
+        {
+          "label": "中心坐标",
+          "data": [
+            {
+              "elementName": "a-input-number",
+              "value": 0,
+              "props": {
+                "min": 0,
+                "step": 0.1
+              }
+            },
+            {
+              "elementName": "a-input-number",
+              "value": 0,
+              "props": {
+                "min": 0,
+                "step": 0.1
+              }
+            },
+            {
+              "elementName": "a-input-number",
+              "value": 0,
+              "props": {
+                "min": 0,
+                "step": 0.1
+              }
+            }
+          ]
+        },
+        {
+          "label": "方向",
+          "data": [
+            {
+              "elementName": "a-input-number",
+              "value": 1,
+              "props": {
+                "min": 0,
+                "step": 0.1
+              }
+            },
+            {
+              "elementName": "a-input-number",
+              "value": 1,
+              "props": {
+                "min": 0,
+                "step": 0.1
+              }
+            },
+            {
+              "elementName": "a-input-number",
+              "value": 1,
+              "props": {
+                "min": 0,
+                "step": 0.1
+              }
+            }
+          ]
+        },
+        {
+          "label": "长",
+          "data": [
+            {
+              "elementName": "a-input-number",
+              "value": 1,
+              "props": {
+                "min": 0,
+                "step": 0.1
+              }
+            }
+          ]
+        },
+        {
+          "label": "宽",
+          "data": [
+            {
+              "elementName": "a-input-number",
+              "value": 1,
+              "props": {
+                "min": 0,
+                "step": 0.1
+              }
+            }
+          ]
+        },
+        {
+          "label": "高",
+          "data": [
+            {
+              "elementName": "a-input-number",
+              "value": 1,
+              "props": {
+                "min": 0,
+                "step": 0.1
+              }
+            }
+          ]
+        },
+        {
+          "label": "旋转角度",
+          "data": [
+            {
+              "elementName": "a-input-number",
+              "value": 0,
+              "props": {
+                "min": 0,
+                "step": 0.1
+              }
+            }
+          ]
+        }
+      ],
+      "paramsId": "10001",
+      "id": "Cube-10001",
+      "height": 50,
+      "x": 140,
+      "width": 120,
+      "y": 35
+    },
+    {
+      "code": "101",
+      "type": "Sphere",
+      "nodeName": "球体",
+      "className": "基本体",
+      "description": "",
+      "hidden": false,
+      "belongTo": "CommonNodeType",
+      "elementData": [
+        {
+          "label": "中心坐标",
+          "data": [
+            {
+              "elementName": "a-input-number",
+              "value": 0,
+              "props": {
+                "min": 0,
+                "step": 0.1
+              }
+            },
+            {
+              "elementName": "a-input-number",
+              "value": 0,
+              "props": {
+                "min": 0,
+                "step": 0.1
+              }
+            },
+            {
+              "elementName": "a-input-number",
+              "value": 0,
+              "props": {
+                "min": 0,
+                "step": 0.1
+              }
+            }
+          ]
+        },
+        {
+          "label": "半径",
+          "data": [
+            {
+              "elementName": "a-input-number",
+              "value": 1,
+              "props": {
+                "min": 0,
+                "step": 0.1
+              }
+            }
+          ]
+        }
+      ],
+      "paramsId": "10101",
+      "id": "Sphere-10101",
+      "height": 50,
+      "x": 120,
+      "width": 120,
+      "y": 145
+    },
+    {
+      "code": "102",
+      "type": "Cone",
+      "nodeName": "圆锥体",
+      "className": "基本体",
+      "description": "",
+      "hidden": false,
+      "belongTo": "CommonNodeType",
+      "elementData": [
+        {
+          "label": "中心坐标",
+          "data": [
+            {
+              "elementName": "a-input-number",
+              "value": 0,
+              "props": {
+                "min": 0,
+                "step": 0.1
+              }
+            },
+            {
+              "elementName": "a-input-number",
+              "value": 0,
+              "props": {
+                "min": 0,
+                "step": 0.1
+              }
+            },
+            {
+              "elementName": "a-input-number",
+              "value": 0,
+              "props": {
+                "min": 0,
+                "step": 0.1
+              }
+            }
+          ]
+        },
+        {
+          "label": "方向",
+          "data": [
+            {
+              "elementName": "a-input-number",
+              "value": 1,
+              "props": {
+                "min": 0,
+                "step": 0.1
+              }
+            },
+            {
+              "elementName": "a-input-number",
+              "value": 1,
+              "props": {
+                "min": 0,
+                "step": 0.1
+              }
+            },
+            {
+              "elementName": "a-input-number",
+              "value": 1,
+              "props": {
+                "min": 0,
+                "step": 0.1
+              }
+            }
+          ]
+        },
+        {
+          "label": "角度控制",
+          "data": [
+            {
+              "elementName": "a-input-number",
+              "value": 1,
+              "props": {
+                "min": 0,
+                "step": 0.1
+              }
+            },
+            {
+              "elementName": "a-input-number",
+              "value": 1,
+              "props": {
+                "min": 0,
+                "step": 0.1
+              }
+            }
+          ]
+        },
+        {
+          "label": "高",
+          "data": [
+            {
+              "elementName": "a-input-number",
+              "value": 1,
+              "props": {
+                "min": 0,
+                "step": 0.1
+              }
+            }
+          ]
+        }
+      ],
+      "paramsId": "10201",
+      "id": "Cone-10201",
+      "height": 50,
+      "x": 95,
+      "width": 120,
+      "y": 245
+    },
+    {
+      "code": "103",
+      "type": "Cylinder",
+      "nodeName": "圆柱体",
+      "className": "基本体",
+      "description": "",
+      "hidden": false,
+      "belongTo": "CommonNodeType",
+      "elementData": [
+        {
+          "label": "端点1",
+          "data": [
+            {
+              "elementName": "a-input-number",
+              "value": 0,
+              "props": {
+                "min": 0,
+                "step": 0.1
+              }
+            },
+            {
+              "elementName": "a-input-number",
+              "value": 0,
+              "props": {
+                "min": 0,
+                "step": 0.1
+              }
+            },
+            {
+              "elementName": "a-input-number",
+              "value": 0,
+              "props": {
+                "min": 0,
+                "step": 0.1
+              }
+            }
+          ]
+        },
+        {
+          "label": "端点2",
+          "data": [
+            {
+              "elementName": "a-input-number",
+              "value": 1,
+              "props": {
+                "min": 0,
+                "step": 0.1
+              }
+            },
+            {
+              "elementName": "a-input-number",
+              "value": 1,
+              "props": {
+                "min": 0,
+                "step": 0.1
+              }
+            },
+            {
+              "elementName": "a-input-number",
+              "value": 1,
+              "props": {
+                "min": 0,
+                "step": 0.1
+              }
+            }
+          ]
+        },
+        {
+          "label": "半径",
+          "data": [
+            {
+              "elementName": "a-input-number",
+              "value": 1,
+              "props": {
+                "min": 0,
+                "step": 0.1
+              }
+            }
+          ]
+        }
+      ],
+      "paramsId": "10301",
+      "id": "Cylinder-10301",
+      "height": 50,
+      "x": 100,
+      "width": 120,
+      "y": 330
+    },
+    {
+      "code": "*",
+      "type": "Subtract",
+      "nodeName": "差操作",
+      "className": "布尔运算",
+      "description": "",
+      "hidden": false,
+      "belongTo": "OperateNodeType",
+      "elementData": [
+        {
+          "label": "端点1",
+          "data": [
+            {
+              "elementName": "a-input-number",
+              "value": 0,
+              "props": {
+                "min": 0,
+                "step": 0.1
+              }
+            },
+            {
+              "elementName": "a-input-number",
+              "value": 0,
+              "props": {
+                "min": 0,
+                "step": 0.1
+              }
+            },
+            {
+              "elementName": "a-input-number",
+              "value": 0,
+              "props": {
+                "min": 0,
+                "step": 0.1
+              }
+            }
+          ]
+        },
+        {
+          "label": "端点2",
+          "data": [
+            {
+              "elementName": "a-input-number",
+              "value": 1,
+              "props": {
+                "min": 0,
+                "step": 0.1
+              }
+            },
+            {
+              "elementName": "a-input-number",
+              "value": 1,
+              "props": {
+                "min": 0,
+                "step": 0.1
+              }
+            },
+            {
+              "elementName": "a-input-number",
+              "value": 1,
+              "props": {
+                "min": 0,
+                "step": 0.1
+              }
+            }
+          ]
+        },
+        {
+          "label": "半径",
+          "data": [
+            {
+              "elementName": "a-input-number",
+              "value": 1,
+              "props": {
+                "min": 0,
+                "step": 0.1
+              }
+            }
+          ]
+        }
+      ],
+      "paramsId": "*",
+      "id": "Subtract-099941c61bd848e4b62eccf11c45ae7e",
+      "height": 50,
+      "x": 665,
+      "width": 120,
+      "y": 130
+    }
+  ],
+  "linkList": [
+    {
+      "type": "link",
+      "id": "link-b65123ff286f466e8c21e60e2d839819",
+      "sourceId": "Cube-10001",
+      "targetId": "Subtract-d06905b6f3ff4e3b8eb878729ab43b49",
+      "label": "",
+      "cls": {
+        "linkType": "Bezier",
+        "linkColor": "#2a2929",
+        "linkThickness": 2
+      },
+      "sourceInfo": {
+        "code": "100",
+        "type": "Cube",
+        "nodeName": "立方体",
+        "className": "基本体",
+        "description": "",
+        "hidden": false,
+        "belongTo": "CommonNodeType",
+        "elementData": [
+          {
+            "label": "中心坐标",
+            "data": [
+              {
+                "elementName": "a-input-number",
+                "value": 0,
+                "props": {
+                  "min": 0,
+                  "step": 0.1
+                }
+              },
+              {
+                "elementName": "a-input-number",
+                "value": 0,
+                "props": {
+                  "min": 0,
+                  "step": 0.1
+                }
+              },
+              {
+                "elementName": "a-input-number",
+                "value": 0,
+                "props": {
+                  "min": 0,
+                  "step": 0.1
+                }
+              }
+            ]
+          },
+          {
+            "label": "方向",
+            "data": [
+              {
+                "elementName": "a-input-number",
+                "value": 1,
+                "props": {
+                  "min": 0,
+                  "step": 0.1
+                }
+              },
+              {
+                "elementName": "a-input-number",
+                "value": 1,
+                "props": {
+                  "min": 0,
+                  "step": 0.1
+                }
+              },
+              {
+                "elementName": "a-input-number",
+                "value": 1,
+                "props": {
+                  "min": 0,
+                  "step": 0.1
+                }
+              }
+            ]
+          },
+          {
+            "label": "长",
+            "data": [
+              {
+                "elementName": "a-input-number",
+                "value": 1,
+                "props": {
+                  "min": 0,
+                  "step": 0.1
+                }
+              }
+            ]
+          },
+          {
+            "label": "宽",
+            "data": [
+              {
+                "elementName": "a-input-number",
+                "value": 1,
+                "props": {
+                  "min": 0,
+                  "step": 0.1
+                }
+              }
+            ]
+          },
+          {
+            "label": "高",
+            "data": [
+              {
+                "elementName": "a-input-number",
+                "value": 1,
+                "props": {
+                  "min": 0,
+                  "step": 0.1
+                }
+              }
+            ]
+          },
+          {
+            "label": "旋转角度",
+            "data": [
+              {
+                "elementName": "a-input-number",
+                "value": 0,
+                "props": {
+                  "min": 0,
+                  "step": 0.1
+                }
+              }
+            ]
+          }
+        ],
+        "paramsId": "10001",
+        "id": "Cube-10001",
+        "height": 50,
+        "x": 140,
+        "width": 120,
+        "y": 35
+      },
+      "targetInfo": {
+        "code": "*",
+        "type": "Subtract",
+        "nodeName": "差操作",
+        "className": "布尔运算",
+        "description": "",
+        "hidden": false,
+        "belongTo": "OperateNodeType",
+        "paramsId": "*",
+        "id": "Subtract-d06905b6f3ff4e3b8eb878729ab43b49",
+        "height": 50,
+        "x": 410,
+        "width": 120,
+        "y": 40
+      }
+    },
+    {
+      "type": "link",
+      "id": "link-0563b2737723449b82cbdd1df1cf9a75",
+      "sourceId": "Sphere-10101",
+      "targetId": "Subtract-d06905b6f3ff4e3b8eb878729ab43b49",
+      "label": "",
+      "cls": {
+        "linkType": "Bezier",
+        "linkColor": "#2a2929",
+        "linkThickness": 2
+      },
+      "sourceInfo": {
+        "code": "101",
+        "type": "Sphere",
+        "nodeName": "球体",
+        "className": "基本体",
+        "description": "",
+        "hidden": false,
+        "belongTo": "CommonNodeType",
+        "elementData": [
+          {
+            "label": "中心坐标",
+            "data": [
+              {
+                "elementName": "a-input-number",
+                "value": 0,
+                "props": {
+                  "min": 0,
+                  "step": 0.1
+                }
+              },
+              {
+                "elementName": "a-input-number",
+                "value": 0,
+                "props": {
+                  "min": 0,
+                  "step": 0.1
+                }
+              },
+              {
+                "elementName": "a-input-number",
+                "value": 0,
+                "props": {
+                  "min": 0,
+                  "step": 0.1
+                }
+              }
+            ]
+          },
+          {
+            "label": "半径",
+            "data": [
+              {
+                "elementName": "a-input-number",
+                "value": 1,
+                "props": {
+                  "min": 0,
+                  "step": 0.1
+                }
+              }
+            ]
+          }
+        ],
+        "paramsId": "10101",
+        "id": "Sphere-10101",
+        "height": 50,
+        "x": 120,
+        "width": 120,
+        "y": 145
+      },
+      "targetInfo": {
+        "code": "*",
+        "type": "Subtract",
+        "nodeName": "差操作",
+        "className": "布尔运算",
+        "description": "",
+        "hidden": false,
+        "belongTo": "OperateNodeType",
+        "paramsId": "*",
+        "id": "Subtract-d06905b6f3ff4e3b8eb878729ab43b49",
+        "height": 50,
+        "x": 410,
+        "width": 120,
+        "y": 40
+      }
+    },
+    {
+      "type": "link",
+      "id": "link-8a103c21e9f3464b83d755678a459ddc",
+      "sourceId": "Cone-10201",
+      "targetId": "Subtract-d06905b6f3ff4e3b8eb878729ab43b49",
+      "label": "",
+      "cls": {
+        "linkType": "Bezier",
+        "linkColor": "#2a2929",
+        "linkThickness": 2
+      },
+      "sourceInfo": {
+        "code": "102",
+        "type": "Cone",
+        "nodeName": "圆锥体",
+        "className": "基本体",
+        "description": "",
+        "hidden": false,
+        "belongTo": "CommonNodeType",
+        "elementData": [
+          {
+            "label": "中心坐标",
+            "data": [
+              {
+                "elementName": "a-input-number",
+                "value": 0,
+                "props": {
+                  "min": 0,
+                  "step": 0.1
+                }
+              },
+              {
+                "elementName": "a-input-number",
+                "value": 0,
+                "props": {
+                  "min": 0,
+                  "step": 0.1
+                }
+              },
+              {
+                "elementName": "a-input-number",
+                "value": 0,
+                "props": {
+                  "min": 0,
+                  "step": 0.1
+                }
+              }
+            ]
+          },
+          {
+            "label": "方向",
+            "data": [
+              {
+                "elementName": "a-input-number",
+                "value": 1,
+                "props": {
+                  "min": 0,
+                  "step": 0.1
+                }
+              },
+              {
+                "elementName": "a-input-number",
+                "value": 1,
+                "props": {
+                  "min": 0,
+                  "step": 0.1
+                }
+              },
+              {
+                "elementName": "a-input-number",
+                "value": 1,
+                "props": {
+                  "min": 0,
+                  "step": 0.1
+                }
+              }
+            ]
+          },
+          {
+            "label": "角度控制",
+            "data": [
+              {
+                "elementName": "a-input-number",
+                "value": 1,
+                "props": {
+                  "min": 0,
+                  "step": 0.1
+                }
+              },
+              {
+                "elementName": "a-input-number",
+                "value": 1,
+                "props": {
+                  "min": 0,
+                  "step": 0.1
+                }
+              }
+            ]
+          },
+          {
+            "label": "高",
+            "data": [
+              {
+                "elementName": "a-input-number",
+                "value": 1,
+                "props": {
+                  "min": 0,
+                  "step": 0.1
+                }
+              }
+            ]
+          }
+        ],
+        "paramsId": "10201",
+        "id": "Cone-10201",
+        "height": 50,
+        "x": 95,
+        "width": 120,
+        "y": 245
+      },
+      "targetInfo": {
+        "code": "*",
+        "type": "Subtract",
+        "nodeName": "差操作",
+        "className": "布尔运算",
+        "description": "",
+        "hidden": false,
+        "belongTo": "OperateNodeType",
+        "paramsId": "*",
+        "id": "Subtract-d06905b6f3ff4e3b8eb878729ab43b49",
+        "height": 50,
+        "x": 410,
+        "width": 120,
+        "y": 40
+      }
+    },
+    {
+      "type": "link",
+      "id": "link-ea53592c35ec48a6811a67358fee05da",
+      "sourceId": "Cylinder-10301",
+      "targetId": "Intersection-1c144888ce874526848e126cd4d6d28d",
+      "label": "",
+      "cls": {
+        "linkType": "Bezier",
+        "linkColor": "#2a2929",
+        "linkThickness": 2
+      },
+      "sourceInfo": {
+        "code": "103",
+        "type": "Cylinder",
+        "nodeName": "圆柱体",
+        "className": "基本体",
+        "description": "",
+        "hidden": false,
+        "belongTo": "CommonNodeType",
+        "elementData": [
+          {
+            "label": "端点1",
+            "data": [
+              {
+                "elementName": "a-input-number",
+                "value": 0,
+                "props": {
+                  "min": 0,
+                  "step": 0.1
+                }
+              },
+              {
+                "elementName": "a-input-number",
+                "value": 0,
+                "props": {
+                  "min": 0,
+                  "step": 0.1
+                }
+              },
+              {
+                "elementName": "a-input-number",
+                "value": 0,
+                "props": {
+                  "min": 0,
+                  "step": 0.1
+                }
+              }
+            ]
+          },
+          {
+            "label": "端点2",
+            "data": [
+              {
+                "elementName": "a-input-number",
+                "value": 1,
+                "props": {
+                  "min": 0,
+                  "step": 0.1
+                }
+              },
+              {
+                "elementName": "a-input-number",
+                "value": 1,
+                "props": {
+                  "min": 0,
+                  "step": 0.1
+                }
+              },
+              {
+                "elementName": "a-input-number",
+                "value": 1,
+                "props": {
+                  "min": 0,
+                  "step": 0.1
+                }
+              }
+            ]
+          },
+          {
+            "label": "半径",
+            "data": [
+              {
+                "elementName": "a-input-number",
+                "value": 1,
+                "props": {
+                  "min": 0,
+                  "step": 0.1
+                }
+              }
+            ]
+          }
+        ],
+        "paramsId": "10301",
+        "id": "Cylinder-10301",
+        "height": 50,
+        "x": 100,
+        "width": 120,
+        "y": 330
+      },
+      "targetInfo": {
+        "code": "+",
+        "type": "Intersection",
+        "nodeName": "交操作",
+        "className": "布尔运算",
+        "description": "",
+        "hidden": false,
+        "belongTo": "OperateNodeType",
+        "paramsId": "+",
+        "id": "Intersection-1c144888ce874526848e126cd4d6d28d",
+        "height": 50,
+        "x": 430,
+        "width": 120,
+        "y": 215
+      }
+    },
+    {
+      "type": "link",
+      "id": "link-05eee5b235cc49cf82d988b1078ed935",
+      "sourceId": "Cube-10001",
+      "targetId": "Intersection-1c144888ce874526848e126cd4d6d28d",
+      "label": "",
+      "cls": {
+        "linkType": "Bezier",
+        "linkColor": "#2a2929",
+        "linkThickness": 2
+      },
+      "sourceInfo": {
+        "code": "100",
+        "type": "Cube",
+        "nodeName": "立方体",
+        "className": "基本体",
+        "description": "",
+        "hidden": false,
+        "belongTo": "CommonNodeType",
+        "elementData": [
+          {
+            "label": "中心坐标",
+            "data": [
+              {
+                "elementName": "a-input-number",
+                "value": 0,
+                "props": {
+                  "min": 0,
+                  "step": 0.1
+                }
+              },
+              {
+                "elementName": "a-input-number",
+                "value": 0,
+                "props": {
+                  "min": 0,
+                  "step": 0.1
+                }
+              },
+              {
+                "elementName": "a-input-number",
+                "value": 0,
+                "props": {
+                  "min": 0,
+                  "step": 0.1
+                }
+              }
+            ]
+          },
+          {
+            "label": "方向",
+            "data": [
+              {
+                "elementName": "a-input-number",
+                "value": 1,
+                "props": {
+                  "min": 0,
+                  "step": 0.1
+                }
+              },
+              {
+                "elementName": "a-input-number",
+                "value": 1,
+                "props": {
+                  "min": 0,
+                  "step": 0.1
+                }
+              },
+              {
+                "elementName": "a-input-number",
+                "value": 1,
+                "props": {
+                  "min": 0,
+                  "step": 0.1
+                }
+              }
+            ]
+          },
+          {
+            "label": "长",
+            "data": [
+              {
+                "elementName": "a-input-number",
+                "value": 1,
+                "props": {
+                  "min": 0,
+                  "step": 0.1
+                }
+              }
+            ]
+          },
+          {
+            "label": "宽",
+            "data": [
+              {
+                "elementName": "a-input-number",
+                "value": 1,
+                "props": {
+                  "min": 0,
+                  "step": 0.1
+                }
+              }
+            ]
+          },
+          {
+            "label": "高",
+            "data": [
+              {
+                "elementName": "a-input-number",
+                "value": 1,
+                "props": {
+                  "min": 0,
+                  "step": 0.1
+                }
+              }
+            ]
+          },
+          {
+            "label": "旋转角度",
+            "data": [
+              {
+                "elementName": "a-input-number",
+                "value": 0,
+                "props": {
+                  "min": 0,
+                  "step": 0.1
+                }
+              }
+            ]
+          }
+        ],
+        "paramsId": "10001",
+        "id": "Cube-10001",
+        "height": 50,
+        "x": 140,
+        "width": 120,
+        "y": 35
+      },
+      "targetInfo": {
+        "code": "+",
+        "type": "Intersection",
+        "nodeName": "交操作",
+        "className": "布尔运算",
+        "description": "",
+        "hidden": false,
+        "belongTo": "OperateNodeType",
+        "paramsId": "+",
+        "id": "Intersection-1c144888ce874526848e126cd4d6d28d",
+        "height": 50,
+        "x": 430,
+        "width": 120,
+        "y": 215
+      }
+    },
+    {
+      "type": "link",
+      "id": "link-e66b2546a60d4bea85f929bfdab9eabe",
+      "sourceId": "Sphere-10101",
+      "targetId": "Intersection-1c144888ce874526848e126cd4d6d28d",
+      "label": "",
+      "cls": {
+        "linkType": "Bezier",
+        "linkColor": "#2a2929",
+        "linkThickness": 2
+      },
+      "sourceInfo": {
+        "code": "101",
+        "type": "Sphere",
+        "nodeName": "球体",
+        "className": "基本体",
+        "description": "",
+        "hidden": false,
+        "belongTo": "CommonNodeType",
+        "elementData": [
+          {
+            "label": "中心坐标",
+            "data": [
+              {
+                "elementName": "a-input-number",
+                "value": 0,
+                "props": {
+                  "min": 0,
+                  "step": 0.1
+                }
+              },
+              {
+                "elementName": "a-input-number",
+                "value": 0,
+                "props": {
+                  "min": 0,
+                  "step": 0.1
+                }
+              },
+              {
+                "elementName": "a-input-number",
+                "value": 0,
+                "props": {
+                  "min": 0,
+                  "step": 0.1
+                }
+              }
+            ]
+          },
+          {
+            "label": "半径",
+            "data": [
+              {
+                "elementName": "a-input-number",
+                "value": 1,
+                "props": {
+                  "min": 0,
+                  "step": 0.1
+                }
+              }
+            ]
+          }
+        ],
+        "paramsId": "10101",
+        "id": "Sphere-10101",
+        "height": 50,
+        "x": 120,
+        "width": 120,
+        "y": 145
+      },
+      "targetInfo": {
+        "code": "+",
+        "type": "Intersection",
+        "nodeName": "交操作",
+        "className": "布尔运算",
+        "description": "",
+        "hidden": false,
+        "belongTo": "OperateNodeType",
+        "paramsId": "+",
+        "id": "Intersection-1c144888ce874526848e126cd4d6d28d",
+        "height": 50,
+        "x": 430,
+        "width": 120,
+        "y": 215
+      }
+    },
+    {
+      "type": "link",
+      "id": "link-5c93a9fec99f4681b91372ab19b57e41",
+      "sourceId": "Cone-10201",
+      "targetId": "Intersection-1c144888ce874526848e126cd4d6d28d",
+      "label": "",
+      "cls": {
+        "linkType": "Bezier",
+        "linkColor": "#2a2929",
+        "linkThickness": 2
+      },
+      "sourceInfo": {
+        "code": "102",
+        "type": "Cone",
+        "nodeName": "圆锥体",
+        "className": "基本体",
+        "description": "",
+        "hidden": false,
+        "belongTo": "CommonNodeType",
+        "elementData": [
+          {
+            "label": "中心坐标",
+            "data": [
+              {
+                "elementName": "a-input-number",
+                "value": 0,
+                "props": {
+                  "min": 0,
+                  "step": 0.1
+                }
+              },
+              {
+                "elementName": "a-input-number",
+                "value": 0,
+                "props": {
+                  "min": 0,
+                  "step": 0.1
+                }
+              },
+              {
+                "elementName": "a-input-number",
+                "value": 0,
+                "props": {
+                  "min": 0,
+                  "step": 0.1
+                }
+              }
+            ]
+          },
+          {
+            "label": "方向",
+            "data": [
+              {
+                "elementName": "a-input-number",
+                "value": 1,
+                "props": {
+                  "min": 0,
+                  "step": 0.1
+                }
+              },
+              {
+                "elementName": "a-input-number",
+                "value": 1,
+                "props": {
+                  "min": 0,
+                  "step": 0.1
+                }
+              },
+              {
+                "elementName": "a-input-number",
+                "value": 1,
+                "props": {
+                  "min": 0,
+                  "step": 0.1
+                }
+              }
+            ]
+          },
+          {
+            "label": "角度控制",
+            "data": [
+              {
+                "elementName": "a-input-number",
+                "value": 1,
+                "props": {
+                  "min": 0,
+                  "step": 0.1
+                }
+              },
+              {
+                "elementName": "a-input-number",
+                "value": 1,
+                "props": {
+                  "min": 0,
+                  "step": 0.1
+                }
+              }
+            ]
+          },
+          {
+            "label": "高",
+            "data": [
+              {
+                "elementName": "a-input-number",
+                "value": 1,
+                "props": {
+                  "min": 0,
+                  "step": 0.1
+                }
+              }
+            ]
+          }
+        ],
+        "paramsId": "10201",
+        "id": "Cone-10201",
+        "height": 50,
+        "x": 95,
+        "width": 120,
+        "y": 245
+      },
+      "targetInfo": {
+        "code": "+",
+        "type": "Intersection",
+        "nodeName": "交操作",
+        "className": "布尔运算",
+        "description": "",
+        "hidden": false,
+        "belongTo": "OperateNodeType",
+        "paramsId": "+",
+        "id": "Intersection-1c144888ce874526848e126cd4d6d28d",
+        "height": 50,
+        "x": 430,
+        "width": 120,
+        "y": 215
+      }
+    },
+    {
+      "type": "link",
+      "id": "link-d8bf6314cb154fa686de7830756b591b",
+      "sourceId": "Cylinder-10301",
+      "targetId": "Subtract-d06905b6f3ff4e3b8eb878729ab43b49",
+      "label": "",
+      "cls": {
+        "linkType": "Bezier",
+        "linkColor": "#2a2929",
+        "linkThickness": 2
+      },
+      "sourceInfo": {
+        "code": "103",
+        "type": "Cylinder",
+        "nodeName": "圆柱体",
+        "className": "基本体",
+        "description": "",
+        "hidden": false,
+        "belongTo": "CommonNodeType",
+        "elementData": [
+          {
+            "label": "端点1",
+            "data": [
+              {
+                "elementName": "a-input-number",
+                "value": 0,
+                "props": {
+                  "min": 0,
+                  "step": 0.1
+                }
+              },
+              {
+                "elementName": "a-input-number",
+                "value": 0,
+                "props": {
+                  "min": 0,
+                  "step": 0.1
+                }
+              },
+              {
+                "elementName": "a-input-number",
+                "value": 0,
+                "props": {
+                  "min": 0,
+                  "step": 0.1
+                }
+              }
+            ]
+          },
+          {
+            "label": "端点2",
+            "data": [
+              {
+                "elementName": "a-input-number",
+                "value": 1,
+                "props": {
+                  "min": 0,
+                  "step": 0.1
+                }
+              },
+              {
+                "elementName": "a-input-number",
+                "value": 1,
+                "props": {
+                  "min": 0,
+                  "step": 0.1
+                }
+              },
+              {
+                "elementName": "a-input-number",
+                "value": 1,
+                "props": {
+                  "min": 0,
+                  "step": 0.1
+                }
+              }
+            ]
+          },
+          {
+            "label": "半径",
+            "data": [
+              {
+                "elementName": "a-input-number",
+                "value": 1,
+                "props": {
+                  "min": 0,
+                  "step": 0.1
+                }
+              }
+            ]
+          }
+        ],
+        "paramsId": "10301",
+        "id": "Cylinder-10301",
+        "height": 50,
+        "x": 100,
+        "width": 120,
+        "y": 330
+      },
+      "targetInfo": {
+        "code": "*",
+        "type": "Subtract",
+        "nodeName": "差操作",
+        "className": "布尔运算",
+        "description": "",
+        "hidden": false,
+        "belongTo": "OperateNodeType",
+        "paramsId": "*",
+        "id": "Subtract-d06905b6f3ff4e3b8eb878729ab43b49",
+        "height": 50,
+        "x": 410,
+        "width": 120,
+        "y": 40
+      }
+    },
+    {
+      "type": "link",
+      "id": "link-7157f46f883b42729d3a21f63167898c",
+      "sourceId": "Intersection-1c144888ce874526848e126cd4d6d28d",
+      "targetId": "Subtract-099941c61bd848e4b62eccf11c45ae7e",
+      "label": "",
+      "cls": {
+        "linkType": "Bezier",
+        "linkColor": "#2a2929",
+        "linkThickness": 2
+      },
+      "sourceInfo": {
+        "code": "+",
+        "type": "Intersection",
+        "nodeName": "交操作",
+        "className": "布尔运算",
+        "description": "",
+        "hidden": false,
+        "belongTo": "OperateNodeType",
+        "paramsId": "+",
+        "id": "Intersection-1c144888ce874526848e126cd4d6d28d",
+        "height": 50,
+        "x": 430,
+        "width": 120,
+        "y": 215
+      },
+      "targetInfo": {
+        "code": "*",
+        "type": "Subtract",
+        "nodeName": "差操作",
+        "className": "布尔运算",
+        "description": "",
+        "hidden": false,
+        "belongTo": "OperateNodeType",
+        "elementData": [
+          {
+            "label": "端点1",
+            "data": [
+              {
+                "elementName": "a-input-number",
+                "value": 0,
+                "props": {
+                  "min": 0,
+                  "step": 0.1
+                }
+              },
+              {
+                "elementName": "a-input-number",
+                "value": 0,
+                "props": {
+                  "min": 0,
+                  "step": 0.1
+                }
+              },
+              {
+                "elementName": "a-input-number",
+                "value": 0,
+                "props": {
+                  "min": 0,
+                  "step": 0.1
+                }
+              }
+            ]
+          },
+          {
+            "label": "端点2",
+            "data": [
+              {
+                "elementName": "a-input-number",
+                "value": 1,
+                "props": {
+                  "min": 0,
+                  "step": 0.1
+                }
+              },
+              {
+                "elementName": "a-input-number",
+                "value": 1,
+                "props": {
+                  "min": 0,
+                  "step": 0.1
+                }
+              },
+              {
+                "elementName": "a-input-number",
+                "value": 1,
+                "props": {
+                  "min": 0,
+                  "step": 0.1
+                }
+              }
+            ]
+          },
+          {
+            "label": "半径",
+            "data": [
+              {
+                "elementName": "a-input-number",
+                "value": 1,
+                "props": {
+                  "min": 0,
+                  "step": 0.1
+                }
+              }
+            ]
+          }
+        ],
+        "paramsId": "*",
+        "id": "Subtract-099941c61bd848e4b62eccf11c45ae7e",
+        "height": 50,
+        "x": 665,
+        "width": 120,
+        "y": 130
+      }
+    },
+    {
+      "type": "link",
+      "id": "link-f346a27b96ed4fb6a93709455198d2e6",
+      "sourceId": "Subtract-d06905b6f3ff4e3b8eb878729ab43b49",
+      "targetId": "Subtract-099941c61bd848e4b62eccf11c45ae7e",
+      "label": "",
+      "cls": {
+        "linkType": "Bezier",
+        "linkColor": "#2a2929",
+        "linkThickness": 2
+      },
+      "sourceInfo": {
+        "code": "*",
+        "type": "Subtract",
+        "nodeName": "差操作",
+        "className": "布尔运算",
+        "description": "",
+        "hidden": false,
+        "belongTo": "OperateNodeType",
+        "paramsId": "*",
+        "id": "Subtract-d06905b6f3ff4e3b8eb878729ab43b49",
+        "height": 50,
+        "x": 410,
+        "width": 120,
+        "y": 40
+      },
+      "targetInfo": {
+        "code": "*",
+        "type": "Subtract",
+        "nodeName": "差操作",
+        "className": "布尔运算",
+        "description": "",
+        "hidden": false,
+        "belongTo": "OperateNodeType",
+        "elementData": [
+          {
+            "label": "端点1",
+            "data": [
+              {
+                "elementName": "a-input-number",
+                "value": 0,
+                "props": {
+                  "min": 0,
+                  "step": 0.1
+                }
+              },
+              {
+                "elementName": "a-input-number",
+                "value": 0,
+                "props": {
+                  "min": 0,
+                  "step": 0.1
+                }
+              },
+              {
+                "elementName": "a-input-number",
+                "value": 0,
+                "props": {
+                  "min": 0,
+                  "step": 0.1
+                }
+              }
+            ]
+          },
+          {
+            "label": "端点2",
+            "data": [
+              {
+                "elementName": "a-input-number",
+                "value": 1,
+                "props": {
+                  "min": 0,
+                  "step": 0.1
+                }
+              },
+              {
+                "elementName": "a-input-number",
+                "value": 1,
+                "props": {
+                  "min": 0,
+                  "step": 0.1
+                }
+              },
+              {
+                "elementName": "a-input-number",
+                "value": 1,
+                "props": {
+                  "min": 0,
+                  "step": 0.1
+                }
+              }
+            ]
+          },
+          {
+            "label": "半径",
+            "data": [
+              {
+                "elementName": "a-input-number",
+                "value": 1,
+                "props": {
+                  "min": 0,
+                  "step": 0.1
+                }
+              }
+            ]
+          }
+        ],
+        "paramsId": "*",
+        "id": "Subtract-099941c61bd848e4b62eccf11c45ae7e",
+        "height": 50,
+        "x": 665,
+        "width": 120,
+        "y": 130
+      }
+    }
+  ],
+  "attr": {
+    "id": "flow-f4b265c2e2944c688bf54b4da04d24ba",
+    "sample": 100,
+    "boundary": 10,
+    "isBinary": 1,
+    "isFilename": "filename_2aeb90b447e548269e76167e9a9d6143"
+  },
+  "config": {
+    "showGrid": true,
+    "showGridText": "隐藏网格",
+    "showGridIcon": "EyeOutlined"
+  },
+  "status": "1"
+}

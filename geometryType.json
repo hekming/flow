@@ -1113,7 +1113,126 @@
           "nodeName": "Face",
           "className": "Voronoi",
           "description": "表面维诺 Voronoi Face",
-          "hidden": false
+          "hidden": false,
+          "elementData": [
+            {
+              "label": "种子点的空间范围",
+              "data": [
+                {
+                  "elementName": "a-input-number",
+                  "value": 1.0,
+                  "props": { "min": 0, "step": 0.1 }
+                },
+                {
+                  "elementName": "a-input-number",
+                  "value": 1.0,
+                  "props": { "min": 0, "step": 0.1 }
+                },
+                {
+                  "elementName": "a-input-number",
+                  "value": 1.0,
+                  "props": { "min": 0, "step": 0.1 }
+                }
+              ]
+            },
+            {
+              "label": "is_iter",
+              "data": [
+                {
+                  "elementName": "a-switch",
+                  "value": 0,
+                  "props": {
+                    "checkedChildren": 1,
+                    "checkedValue": 1,
+                    "unCheckedChildren": 0,
+                    "unCheckedValue": 0,
+                    "style": { "flex": "none" }
+                  }
+                }
+              ]
+            },
+            {
+              "label": "次数",
+              "data": [
+                {
+                  "elementName": "a-input-number",
+                  "value": 2,
+                  "props": { "min": 0, "step": 1, "precision": 0 }
+                }
+              ]
+            },
+            {
+              "label": "is_shape",
+              "data": [
+                {
+                  "elementName": "a-switch",
+                  "value": 0,
+                  "props": {
+                    "checkedChildren": 1,
+                    "checkedValue": 1,
+                    "unCheckedChildren": 0,
+                    "unCheckedValue": 0,
+                    "style": { "flex": "none" }
+                  }
+                }
+              ]
+            },
+            {
+              "label": "外形约束几何体",
+              "data": [
+                {
+                  "elementName": "a-select",
+                  "value": null
+                }
+              ]
+            },
+            {
+              "label": "两个R",
+              "data": [
+                {
+                  "elementName": "a-input-number",
+                  "value": 1.0,
+                  "props": { "min": 0, "step": 0.1 }
+                },
+                {
+                  "elementName": "a-input-number",
+                  "value": 1.0,
+                  "props": { "min": 0, "step": 0.1 }
+                }
+              ]
+            },
+            {
+              "label": "is_lambda",
+              "data": [
+                {
+                  "elementName": "a-switch",
+                  "value": 1,
+                  "props": {
+                    "checkedChildren": 1,
+                    "checkedValue": 1,
+                    "unCheckedChildren": 0,
+                    "unCheckedValue": 0,
+                    "style": { "flex": "none" }
+                  }
+                }
+              ]
+            },
+            {
+              "label": "lambda",
+              "data": [
+                {
+                  "elementName": "a-input-number",
+                  "value": 0.2,
+                  "props": { "min": 0, "step": 0.1 }
+                },
+                {
+                  "elementName": "a-input-number",
+                  "value": 0.2,
+                  "props": { "min": 0, "step": 0.1 }
+                }
+              ]
+            }
+          ]
         },
         {
           "code": "301",
@@ -1121,7 +1240,7 @@
           "nodeName": "Volume",
           "className": "Voronoi",
           "description": "体积维诺 Voronoi Volume",
-          "hidden": false
+          "hidden": true
         }
       ]
     },
@@ -1141,15 +1260,30 @@
           "elementData": [
             {
               "label": "第一过渡几何体",
-              "data": []
+              "data": [
+                {
+                  "elementName": "a-select",
+                  "value": null
+                }
+              ]
             },
             {
               "label": "第二过渡几何体",
-              "data": []
+              "data": [
+                {
+                  "elementName": "a-select",
+                  "value": null
+                }
+              ]
             },
             {
               "label": "过渡的边界几何体",
-              "data": []
+              "data": [
+                {
+                  "elementName": "a-select",
+                  "value": null
+                }
+              ]
             }
           ]
         },
@@ -1163,7 +1297,12 @@
           "elementData": [
             {
               "label": "几何体",
-              "data": []
+              "data": [
+                {
+                  "elementName": "a-select",
+                  "value": null
+                }
+              ]
             },
             {
               "label": "扭曲轴",
