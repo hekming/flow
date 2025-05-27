@@ -83,16 +83,6 @@
                   "props": { "min": 0, "step": 0.1 }
                 }
               ]
-            },
-            {
-              "label": "旋转角度",
-              "data": [
-                {
-                  "elementName": "a-input-number",
-                  "value": 0.0,
-                  "props": { "min": 0, "step": 0.1 }
-                }
-              ]
             }
           ]
         },
@@ -165,6 +155,21 @@
               ]
             },
             {
+              "label": "开角度控制",
+              "data": [
+                {
+                  "elementName": "a-input-number",
+                  "value": 1.0,
+                  "props": { "min": 0, "step": 0.1 }
+                },
+                {
+                  "elementName": "a-input-number",
+                  "value": 1.0,
+                  "props": { "min": 0, "step": 0.1 }
+                }
+              ]
+            },
+            {
               "label": "方向",
               "data": [
                 {
@@ -185,22 +190,7 @@
               ]
             },
             {
-              "label": "角度控制",
-              "data": [
-                {
-                  "elementName": "a-input-number",
-                  "value": 1.0,
-                  "props": { "min": 0, "step": 0.1 }
-                },
-                {
-                  "elementName": "a-input-number",
-                  "value": 1.0,
-                  "props": { "min": 0, "step": 0.1 }
-                }
-              ]
-            },
-            {
-              "label": "高",
+              "label": "高度",
               "data": [
                 {
                   "elementName": "a-input-number",
@@ -220,7 +210,7 @@
           "hidden": false,
           "elementData": [
             {
-              "label": "端点1",
+              "label": "顶点1",
               "data": [
                 {
                   "elementName": "a-input-number",
@@ -240,7 +230,7 @@
               ]
             },
             {
-              "label": "端点2",
+              "label": "顶点2",
               "data": [
                 {
                   "elementName": "a-input-number",
@@ -370,7 +360,7 @@
           "hidden": false,
           "elementData": [
             {
-              "label": "端点1",
+              "label": "顶点1",
               "data": [
                 {
                   "elementName": "a-input-number",
@@ -390,7 +380,7 @@
               ]
             },
             {
-              "label": "端点2",
+              "label": "顶点2",
               "data": [
                 {
                   "elementName": "a-input-number",
@@ -423,7 +413,7 @@
         },
         {
           "code": "106",
-          "type": "Torch",
+          "type": "Torus",
           "nodeName": "圆环体",
           "className": "基本体",
           "description": "",
@@ -450,18 +440,8 @@
               ]
             },
             {
-              "label": "方向",
+              "label": "外径",
               "data": [
-                {
-                  "elementName": "a-input-number",
-                  "value": 0.0,
-                  "props": { "min": 0, "step": 0.1 }
-                },
-                {
-                  "elementName": "a-input-number",
-                  "value": 0.0,
-                  "props": { "min": 0, "step": 0.1 }
-                },
                 {
                   "elementName": "a-input-number",
                   "value": 0.0,
@@ -480,8 +460,18 @@
               ]
             },
             {
-              "label": "外径",
+              "label": "方向",
               "data": [
+                {
+                  "elementName": "a-input-number",
+                  "value": 0.0,
+                  "props": { "min": 0, "step": 0.1 }
+                },
+                {
+                  "elementName": "a-input-number",
+                  "value": 0.0,
+                  "props": { "min": 0, "step": 0.1 }
+                },
                 {
                   "elementName": "a-input-number",
                   "value": 0.0,
@@ -520,7 +510,7 @@
               ]
             },
             {
-              "label": "空间坐标X",
+              "label": "point空间坐标X",
               "data": [
                 {
                   "elementName": "a-input-number",
@@ -530,7 +520,7 @@
               ]
             },
             {
-              "label": "空间坐标Y",
+              "label": "point空间坐标Y",
               "data": [
                 {
                   "elementName": "a-input-number",
@@ -540,7 +530,7 @@
               ]
             },
             {
-              "label": "空间坐标Z",
+              "label": "point空间坐标Z",
               "data": [
                 {
                   "elementName": "a-input-number",
