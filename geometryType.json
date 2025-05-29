@@ -20,17 +20,17 @@
                 {
                   "elementName": "a-input-number",
                   "value": 0.0,
-                  "props": { "min": 0, "step": 0.1 }
+                  "props": { "min": 0, "step": 0.1, "precision": 1 }
                 },
                 {
                   "elementName": "a-input-number",
                   "value": 0.0,
-                  "props": { "min": 0, "step": 0.1 }
+                  "props": { "min": 0, "step": 0.1, "precision": 1 }
                 },
                 {
                   "elementName": "a-input-number",
                   "value": 0.0,
-                  "props": { "min": 0, "step": 0.1 }
+                  "props": { "min": 0, "step": 0.1, "precision": 1 }
                 }
               ]
             },
@@ -40,17 +40,17 @@
                 {
                   "elementName": "a-input-number",
                   "value": 1.0,
-                  "props": { "min": 0, "step": 0.1 }
+                  "props": { "min": 0, "step": 0.1, "precision": 1 }
                 },
                 {
                   "elementName": "a-input-number",
                   "value": 1.0,
-                  "props": { "min": 0, "step": 0.1 }
+                  "props": { "min": 0, "step": 0.1, "precision": 1 }
                 },
                 {
                   "elementName": "a-input-number",
                   "value": 1.0,
-                  "props": { "min": 0, "step": 0.1 }
+                  "props": { "min": 0, "step": 0.1, "precision": 1 }
                 }
               ]
             },
@@ -60,7 +60,7 @@
                 {
                   "elementName": "a-input-number",
                   "value": 1.0,
-                  "props": { "min": 0, "step": 0.1 }
+                  "props": { "min": 0, "step": 0.1, "precision": 1 }
                 }
               ]
             },
@@ -70,7 +70,7 @@
                 {
                   "elementName": "a-input-number",
                   "value": 1.0,
-                  "props": { "min": 0, "step": 0.1 }
+                  "props": { "min": 0, "step": 0.1, "precision": 1 }
                 }
               ]
             },
@@ -80,7 +80,7 @@
                 {
                   "elementName": "a-input-number",
                   "value": 1.0,
-                  "props": { "min": 0, "step": 0.1 }
+                  "props": { "min": 0, "step": 0.1, "precision": 1 }
                 }
               ]
             }
@@ -100,17 +100,17 @@
                 {
                   "elementName": "a-input-number",
                   "value": 0.0,
-                  "props": { "min": 0, "step": 0.1 }
+                  "props": { "min": 0, "step": 0.1, "precision": 1 }
                 },
                 {
                   "elementName": "a-input-number",
                   "value": 0.0,
-                  "props": { "min": 0, "step": 0.1 }
+                  "props": { "min": 0, "step": 0.1, "precision": 1 }
                 },
                 {
                   "elementName": "a-input-number",
                   "value": 0.0,
-                  "props": { "min": 0, "step": 0.1 }
+                  "props": { "min": 0, "step": 0.1, "precision": 1 }
                 }
               ]
             },
@@ -120,7 +120,7 @@
                 {
                   "elementName": "a-input-number",
                   "value": 1.0,
-                  "props": { "min": 0, "step": 0.1 }
+                  "props": { "min": 0, "step": 0.1, "precision": 1 }
                 }
               ]
             }
@@ -140,17 +140,17 @@
                 {
                   "elementName": "a-input-number",
                   "value": 0.0,
-                  "props": { "min": 0, "step": 0.1 }
+                  "props": { "min": 0, "step": 0.1, "precision": 1 }
                 },
                 {
                   "elementName": "a-input-number",
                   "value": 0.0,
-                  "props": { "min": 0, "step": 0.1 }
+                  "props": { "min": 0, "step": 0.1, "precision": 1 }
                 },
                 {
                   "elementName": "a-input-number",
                   "value": 0.0,
-                  "props": { "min": 0, "step": 0.1 }
+                  "props": { "min": 0, "step": 0.1, "precision": 1 }
                 }
               ]
             },
@@ -160,12 +160,12 @@
                 {
                   "elementName": "a-input-number",
                   "value": 1.0,
-                  "props": { "min": 0, "step": 0.1 }
+                  "props": { "min": 0, "step": 0.1, "precision": 1 }
                 },
                 {
                   "elementName": "a-input-number",
                   "value": 1.0,
-                  "props": { "min": 0, "step": 0.1 }
+                  "props": { "min": 0, "step": 0.1, "precision": 1 }
                 }
               ]
             },
@@ -175,17 +175,17 @@
                 {
                   "elementName": "a-input-number",
                   "value": 1.0,
-                  "props": { "min": 0, "step": 0.1 }
+                  "props": { "min": 0, "step": 0.1, "precision": 1 }
                 },
                 {
                   "elementName": "a-input-number",
                   "value": 1.0,
-                  "props": { "min": 0, "step": 0.1 }
+                  "props": { "min": 0, "step": 0.1, "precision": 1 }
                 },
                 {
                   "elementName": "a-input-number",
                   "value": 1.0,
-                  "props": { "min": 0, "step": 0.1 }
+                  "props": { "min": 0, "step": 0.1, "precision": 1 }
                 }
               ]
             },
@@ -195,7 +195,7 @@
                 {
                   "elementName": "a-input-number",
                   "value": 1.0,
-                  "props": { "min": 0, "step": 0.1 }
+                  "props": { "min": 0, "step": 0.1, "precision": 1 }
                 }
               ]
             }
@@ -215,17 +215,17 @@
                 {
                   "elementName": "a-input-number",
                   "value": 0.0,
-                  "props": { "min": 0, "step": 0.1 }
+                  "props": { "min": 0, "step": 0.1, "precision": 1 }
                 },
                 {
                   "elementName": "a-input-number",
                   "value": 0.0,
-                  "props": { "min": 0, "step": 0.1 }
+                  "props": { "min": 0, "step": 0.1, "precision": 1 }
                 },
                 {
                   "elementName": "a-input-number",
                   "value": 0.0,
-                  "props": { "min": 0, "step": 0.1 }
+                  "props": { "min": 0, "step": 0.1, "precision": 1 }
                 }
               ]
             },
@@ -235,17 +235,17 @@
                 {
                   "elementName": "a-input-number",
                   "value": 1.0,
-                  "props": { "min": 0, "step": 0.1 }
+                  "props": { "min": 0, "step": 0.1, "precision": 1 }
                 },
                 {
                   "elementName": "a-input-number",
                   "value": 1.0,
-                  "props": { "min": 0, "step": 0.1 }
+                  "props": { "min": 0, "step": 0.1, "precision": 1 }
                 },
                 {
                   "elementName": "a-input-number",
                   "value": 1.0,
-                  "props": { "min": 0, "step": 0.1 }
+                  "props": { "min": 0, "step": 0.1, "precision": 1 }
                 }
               ]
             },
@@ -255,7 +255,7 @@
                 {
                   "elementName": "a-input-number",
                   "value": 1.0,
-                  "props": { "min": 0, "step": 0.1 }
+                  "props": { "min": 0, "step": 0.1, "precision": 1 }
                 }
               ]
             }
@@ -275,17 +275,17 @@
                 {
                   "elementName": "a-input-number",
                   "value": 0.0,
-                  "props": { "min": 0, "step": 0.1 }
+                  "props": { "min": 0, "step": 0.1, "precision": 1 }
                 },
                 {
                   "elementName": "a-input-number",
                   "value": 0.0,
-                  "props": { "min": 0, "step": 0.1 }
+                  "props": { "min": 0, "step": 0.1, "precision": 1 }
                 },
                 {
                   "elementName": "a-input-number",
                   "value": 0.0,
-                  "props": { "min": 0, "step": 0.1 }
+                  "props": { "min": 0, "step": 0.1, "precision": 1 }
                 }
               ]
             },
@@ -295,17 +295,17 @@
                 {
                   "elementName": "a-input-number",
                   "value": 0.0,
-                  "props": { "min": 0, "step": 0.1 }
+                  "props": { "min": 0, "step": 0.1, "precision": 1 }
                 },
                 {
                   "elementName": "a-input-number",
                   "value": 0.0,
-                  "props": { "min": 0, "step": 0.1 }
+                  "props": { "min": 0, "step": 0.1, "precision": 1 }
                 },
                 {
                   "elementName": "a-input-number",
                   "value": 0.0,
-                  "props": { "min": 0, "step": 0.1 }
+                  "props": { "min": 0, "step": 0.1, "precision": 1 }
                 }
               ]
             },
@@ -315,17 +315,17 @@
                 {
                   "elementName": "a-input-number",
                   "value": 0.0,
-                  "props": { "min": 0, "step": 0.1 }
+                  "props": { "min": 0, "step": 0.1, "precision": 1 }
                 },
                 {
                   "elementName": "a-input-number",
                   "value": 0.0,
-                  "props": { "min": 0, "step": 0.1 }
+                  "props": { "min": 0, "step": 0.1, "precision": 1 }
                 },
                 {
                   "elementName": "a-input-number",
                   "value": 0.0,
-                  "props": { "min": 0, "step": 0.1 }
+                  "props": { "min": 0, "step": 0.1, "precision": 1 }
                 }
               ]
             },
@@ -335,17 +335,17 @@
                 {
                   "elementName": "a-input-number",
                   "value": 0.0,
-                  "props": { "min": 0, "step": 0.1 }
+                  "props": { "min": 0, "step": 0.1, "precision": 1 }
                 },
                 {
                   "elementName": "a-input-number",
                   "value": 0.0,
-                  "props": { "min": 0, "step": 0.1 }
+                  "props": { "min": 0, "step": 0.1, "precision": 1 }
                 },
                 {
                   "elementName": "a-input-number",
                   "value": 0.0,
-                  "props": { "min": 0, "step": 0.1 }
+                  "props": { "min": 0, "step": 0.1, "precision": 1 }
                 }
               ]
             }
@@ -365,17 +365,17 @@
                 {
                   "elementName": "a-input-number",
                   "value": 0.0,
-                  "props": { "min": 0, "step": 0.1 }
+                  "props": { "min": 0, "step": 0.1, "precision": 1 }
                 },
                 {
                   "elementName": "a-input-number",
                   "value": 0.0,
-                  "props": { "min": 0, "step": 0.1 }
+                  "props": { "min": 0, "step": 0.1, "precision": 1 }
                 },
                 {
                   "elementName": "a-input-number",
                   "value": 0.0,
-                  "props": { "min": 0, "step": 0.1 }
+                  "props": { "min": 0, "step": 0.1, "precision": 1 }
                 }
               ]
             },
@@ -385,17 +385,17 @@
                 {
                   "elementName": "a-input-number",
                   "value": 0.0,
-                  "props": { "min": 0, "step": 0.1 }
+                  "props": { "min": 0, "step": 0.1, "precision": 1 }
                 },
                 {
                   "elementName": "a-input-number",
                   "value": 0.0,
-                  "props": { "min": 0, "step": 0.1 }
+                  "props": { "min": 0, "step": 0.1, "precision": 1 }
                 },
                 {
                   "elementName": "a-input-number",
                   "value": 0.0,
-                  "props": { "min": 0, "step": 0.1 }
+                  "props": { "min": 0, "step": 0.1, "precision": 1 }
                 }
               ]
             },
@@ -405,7 +405,7 @@
                 {
                   "elementName": "a-input-number",
                   "value": 0.0,
-                  "props": { "min": 0, "step": 0.1 }
+                  "props": { "min": 0, "step": 0.1, "precision": 1 }
                 }
               ]
             }
@@ -425,17 +425,17 @@
                 {
                   "elementName": "a-input-number",
                   "value": 0.0,
-                  "props": { "min": 0, "step": 0.1 }
+                  "props": { "min": 0, "step": 0.1, "precision": 1 }
                 },
                 {
                   "elementName": "a-input-number",
                   "value": 0.0,
-                  "props": { "min": 0, "step": 0.1 }
+                  "props": { "min": 0, "step": 0.1, "precision": 1 }
                 },
                 {
                   "elementName": "a-input-number",
                   "value": 0.0,
-                  "props": { "min": 0, "step": 0.1 }
+                  "props": { "min": 0, "step": 0.1, "precision": 1 }
                 }
               ]
             },
@@ -445,7 +445,7 @@
                 {
                   "elementName": "a-input-number",
                   "value": 0.0,
-                  "props": { "min": 0, "step": 0.1 }
+                  "props": { "min": 0, "step": 0.1, "precision": 1 }
                 }
               ]
             },
@@ -455,7 +455,7 @@
                 {
                   "elementName": "a-input-number",
                   "value": 0.0,
-                  "props": { "min": 0, "step": 0.1 }
+                  "props": { "min": 0, "step": 0.1, "precision": 1 }
                 }
               ]
             },
@@ -465,17 +465,17 @@
                 {
                   "elementName": "a-input-number",
                   "value": 0.0,
-                  "props": { "min": 0, "step": 0.1 }
+                  "props": { "min": 0, "step": 0.1, "precision": 1 }
                 },
                 {
                   "elementName": "a-input-number",
                   "value": 0.0,
-                  "props": { "min": 0, "step": 0.1 }
+                  "props": { "min": 0, "step": 0.1, "precision": 1 }
                 },
                 {
                   "elementName": "a-input-number",
                   "value": 0.0,
-                  "props": { "min": 0, "step": 0.1 }
+                  "props": { "min": 0, "step": 0.1, "precision": 1 }
                 }
               ]
             }
@@ -495,17 +495,17 @@
                 {
                   "elementName": "a-input-number",
                   "value": 0.0,
-                  "props": { "min": 0, "step": 0.1 }
+                  "props": { "min": 0, "step": 0.1, "precision": 1 }
                 },
                 {
                   "elementName": "a-input-number",
                   "value": 0.0,
-                  "props": { "min": 0, "step": 0.1 }
+                  "props": { "min": 0, "step": 0.1, "precision": 1 }
                 },
                 {
                   "elementName": "a-input-number",
                   "value": 0.0,
-                  "props": { "min": 0, "step": 0.1 }
+                  "props": { "min": 0, "step": 0.1, "precision": 1 }
                 }
               ]
             },
@@ -515,7 +515,7 @@
                 {
                   "elementName": "a-input-number",
                   "value": 0.0,
-                  "props": { "min": 0, "step": 0.1 }
+                  "props": { "min": 0, "step": 0.1, "precision": 1 }
                 }
               ]
             },
@@ -525,7 +525,7 @@
                 {
                   "elementName": "a-input-number",
                   "value": 0.0,
-                  "props": { "min": 0, "step": 0.1 }
+                  "props": { "min": 0, "step": 0.1, "precision": 1 }
                 }
               ]
             },
@@ -535,7 +535,7 @@
                 {
                   "elementName": "a-input-number",
                   "value": 0.0,
-                  "props": { "min": 0, "step": 0.1 }
+                  "props": { "min": 0, "step": 0.1, "precision": 1 }
                 }
               ]
             }
@@ -562,18 +562,18 @@
               "data": [
                 {
                   "elementName": "a-input-number",
-                  "value": 0.0,
-                  "props": { "min": 0, "step": 0.1 }
+                  "value": 10.0,
+                  "props": { "min": 0, "step": 0.1, "precision": 1 }
                 },
                 {
                   "elementName": "a-input-number",
-                  "value": 0.0,
-                  "props": { "min": 0, "step": 0.1 }
+                  "value": 10.0,
+                  "props": { "min": 0, "step": 0.1, "precision": 1 }
                 },
                 {
                   "elementName": "a-input-number",
-                  "value": 0.0,
-                  "props": { "min": 0, "step": 0.1 }
+                  "value": 10.0,
+                  "props": { "min": 0, "step": 0.1, "precision": 1 }
                 }
               ]
             },
@@ -581,9 +581,15 @@
               "label": "是否偏移",
               "data": [
                 {
-                  "elementName": "a-input-number",
-                  "value": 0.0,
-                  "props": { "min": 0, "step": 0.1 }
+                  "elementName": "a-switch",
+                  "value": 1,
+                  "props": {
+                    "checkedChildren": 1,
+                    "checkedValue": 1,
+                    "unCheckedChildren": 0,
+                    "unCheckedValue": 0,
+                    "style": { "flex": "none" }
+                  }
                 }
               ]
             },
@@ -593,7 +599,7 @@
                 {
                   "elementName": "a-input-number",
                   "value": 0.0,
-                  "props": { "min": 0, "step": 0.1 }
+                  "props": { "min": 0, "step": 0.1, "precision": 1 }
                 }
               ]
             },
@@ -603,7 +609,7 @@
                 {
                   "elementName": "a-input-number",
                   "value": 0.0,
-                  "props": { "min": 0, "step": 0.1 }
+                  "props": { "min": 0, "step": 0.1, "precision": 1 }
                 }
               ]
             }
@@ -622,18 +628,18 @@
               "data": [
                 {
                   "elementName": "a-input-number",
-                  "value": 0.0,
-                  "props": { "min": 0, "step": 0.1 }
+                  "value": 10.0,
+                  "props": { "min": 0, "step": 0.1, "precision": 1 }
                 },
                 {
                   "elementName": "a-input-number",
-                  "value": 0.0,
-                  "props": { "min": 0, "step": 0.1 }
+                  "value": 10.0,
+                  "props": { "min": 0, "step": 0.1, "precision": 1 }
                 },
                 {
                   "elementName": "a-input-number",
-                  "value": 0.0,
-                  "props": { "min": 0, "step": 0.1 }
+                  "value": 10.0,
+                  "props": { "min": 0, "step": 0.1, "precision": 1 }
                 }
               ]
             },
@@ -641,9 +647,15 @@
               "label": "是否偏移",
               "data": [
                 {
-                  "elementName": "a-input-number",
-                  "value": 0.0,
-                  "props": { "min": 0, "step": 0.1 }
+                  "elementName": "a-switch",
+                  "value": 1,
+                  "props": {
+                    "checkedChildren": 1,
+                    "checkedValue": 1,
+                    "unCheckedChildren": 0,
+                    "unCheckedValue": 0,
+                    "style": { "flex": "none" }
+                  }
                 }
               ]
             },
@@ -653,7 +665,7 @@
                 {
                   "elementName": "a-input-number",
                   "value": 0.0,
-                  "props": { "min": 0, "step": 0.1 }
+                  "props": { "min": 0, "step": 0.1, "precision": 1 }
                 }
               ]
             },
@@ -663,7 +675,7 @@
                 {
                   "elementName": "a-input-number",
                   "value": 0.0,
-                  "props": { "min": 0, "step": 0.1 }
+                  "props": { "min": 0, "step": 0.1, "precision": 1 }
                 }
               ]
             }
@@ -682,18 +694,18 @@
               "data": [
                 {
                   "elementName": "a-input-number",
-                  "value": 0.0,
-                  "props": { "min": 0, "step": 0.1 }
+                  "value": 10.0,
+                  "props": { "min": 0, "step": 0.1, "precision": 1 }
                 },
                 {
                   "elementName": "a-input-number",
-                  "value": 0.0,
-                  "props": { "min": 0, "step": 0.1 }
+                  "value": 10.0,
+                  "props": { "min": 0, "step": 0.1, "precision": 1 }
                 },
                 {
                   "elementName": "a-input-number",
-                  "value": 0.0,
-                  "props": { "min": 0, "step": 0.1 }
+                  "value": 10.0,
+                  "props": { "min": 0, "step": 0.1, "precision": 1 }
                 }
               ]
             },
@@ -701,9 +713,15 @@
               "label": "是否偏移",
               "data": [
                 {
-                  "elementName": "a-input-number",
-                  "value": 0.0,
-                  "props": { "min": 0, "step": 0.1 }
+                  "elementName": "a-switch",
+                  "value": 1,
+                  "props": {
+                    "checkedChildren": 1,
+                    "checkedValue": 1,
+                    "unCheckedChildren": 0,
+                    "unCheckedValue": 0,
+                    "style": { "flex": "none" }
+                  }
                 }
               ]
             },
@@ -713,7 +731,7 @@
                 {
                   "elementName": "a-input-number",
                   "value": 0.0,
-                  "props": { "min": 0, "step": 0.1 }
+                  "props": { "min": 0, "step": 0.1, "precision": 1 }
                 }
               ]
             },
@@ -723,7 +741,7 @@
                 {
                   "elementName": "a-input-number",
                   "value": 0.0,
-                  "props": { "min": 0, "step": 0.1 }
+                  "props": { "min": 0, "step": 0.1, "precision": 1 }
                 }
               ]
             }
@@ -742,18 +760,18 @@
               "data": [
                 {
                   "elementName": "a-input-number",
-                  "value": 0.0,
-                  "props": { "min": 0, "step": 0.1 }
+                  "value": 10.0,
+                  "props": { "min": 0, "step": 0.1, "precision": 1 }
                 },
                 {
                   "elementName": "a-input-number",
-                  "value": 0.0,
-                  "props": { "min": 0, "step": 0.1 }
+                  "value": 10.0,
+                  "props": { "min": 0, "step": 0.1, "precision": 1 }
                 },
                 {
                   "elementName": "a-input-number",
-                  "value": 0.0,
-                  "props": { "min": 0, "step": 0.1 }
+                  "value": 10.0,
+                  "props": { "min": 0, "step": 0.1, "precision": 1 }
                 }
               ]
             },
@@ -761,9 +779,15 @@
               "label": "是否偏移",
               "data": [
                 {
-                  "elementName": "a-input-number",
-                  "value": 0.0,
-                  "props": { "min": 0, "step": 0.1 }
+                  "elementName": "a-switch",
+                  "value": 1,
+                  "props": {
+                    "checkedChildren": 1,
+                    "checkedValue": 1,
+                    "unCheckedChildren": 0,
+                    "unCheckedValue": 0,
+                    "style": { "flex": "none" }
+                  }
                 }
               ]
             },
@@ -773,7 +797,7 @@
                 {
                   "elementName": "a-input-number",
                   "value": 0.0,
-                  "props": { "min": 0, "step": 0.1 }
+                  "props": { "min": 0, "step": 0.1, "precision": 1 }
                 }
               ]
             },
@@ -783,7 +807,7 @@
                 {
                   "elementName": "a-input-number",
                   "value": 0.0,
-                  "props": { "min": 0, "step": 0.1 }
+                  "props": { "min": 0, "step": 0.1, "precision": 1 }
                 }
               ]
             }
@@ -802,18 +826,18 @@
               "data": [
                 {
                   "elementName": "a-input-number",
-                  "value": 0.0,
-                  "props": { "min": 0, "step": 0.1 }
+                  "value": 10.0,
+                  "props": { "min": 0, "step": 0.1, "precision": 1 }
                 },
                 {
                   "elementName": "a-input-number",
-                  "value": 0.0,
-                  "props": { "min": 0, "step": 0.1 }
+                  "value": 10.0,
+                  "props": { "min": 0, "step": 0.1, "precision": 1 }
                 },
                 {
                   "elementName": "a-input-number",
-                  "value": 0.0,
-                  "props": { "min": 0, "step": 0.1 }
+                  "value": 10.0,
+                  "props": { "min": 0, "step": 0.1, "precision": 1 }
                 }
               ]
             },
@@ -821,9 +845,15 @@
               "label": "是否偏移",
               "data": [
                 {
-                  "elementName": "a-input-number",
-                  "value": 0.0,
-                  "props": { "min": 0, "step": 0.1 }
+                  "elementName": "a-switch",
+                  "value": 1,
+                  "props": {
+                    "checkedChildren": 1,
+                    "checkedValue": 1,
+                    "unCheckedChildren": 0,
+                    "unCheckedValue": 0,
+                    "style": { "flex": "none" }
+                  }
                 }
               ]
             },
@@ -833,7 +863,7 @@
                 {
                   "elementName": "a-input-number",
                   "value": 0.0,
-                  "props": { "min": 0, "step": 0.1 }
+                  "props": { "min": 0, "step": 0.1, "precision": 1 }
                 }
               ]
             },
@@ -843,7 +873,7 @@
                 {
                   "elementName": "a-input-number",
                   "value": 0.0,
-                  "props": { "min": 0, "step": 0.1 }
+                  "props": { "min": 0, "step": 0.1, "precision": 1 }
                 }
               ]
             }
@@ -862,18 +892,18 @@
               "data": [
                 {
                   "elementName": "a-input-number",
-                  "value": 0.0,
-                  "props": { "min": 0, "step": 0.1 }
+                  "value": 10.0,
+                  "props": { "min": 0, "step": 0.1, "precision": 1 }
                 },
                 {
                   "elementName": "a-input-number",
-                  "value": 0.0,
-                  "props": { "min": 0, "step": 0.1 }
+                  "value": 10.0,
+                  "props": { "min": 0, "step": 0.1, "precision": 1 }
                 },
                 {
                   "elementName": "a-input-number",
-                  "value": 0.0,
-                  "props": { "min": 0, "step": 0.1 }
+                  "value": 10.0,
+                  "props": { "min": 0, "step": 0.1, "precision": 1 }
                 }
               ]
             },
@@ -881,9 +911,15 @@
               "label": "是否偏移",
               "data": [
                 {
-                  "elementName": "a-input-number",
-                  "value": 0.0,
-                  "props": { "min": 0, "step": 0.1 }
+                  "elementName": "a-switch",
+                  "value": 1,
+                  "props": {
+                    "checkedChildren": 1,
+                    "checkedValue": 1,
+                    "unCheckedChildren": 0,
+                    "unCheckedValue": 0,
+                    "style": { "flex": "none" }
+                  }
                 }
               ]
             },
@@ -893,7 +929,7 @@
                 {
                   "elementName": "a-input-number",
                   "value": 0.0,
-                  "props": { "min": 0, "step": 0.1 }
+                  "props": { "min": 0, "step": 0.1, "precision": 1 }
                 }
               ]
             },
@@ -903,7 +939,7 @@
                 {
                   "elementName": "a-input-number",
                   "value": 0.0,
-                  "props": { "min": 0, "step": 0.1 }
+                  "props": { "min": 0, "step": 0.1, "precision": 1 }
                 }
               ]
             }
@@ -922,18 +958,18 @@
               "data": [
                 {
                   "elementName": "a-input-number",
-                  "value": 0.0,
-                  "props": { "min": 0, "step": 0.1 }
+                  "value": 10.0,
+                  "props": { "min": 0, "step": 0.1, "precision": 1 }
                 },
                 {
                   "elementName": "a-input-number",
-                  "value": 0.0,
-                  "props": { "min": 0, "step": 0.1 }
+                  "value": 10.0,
+                  "props": { "min": 0, "step": 0.1, "precision": 1 }
                 },
                 {
                   "elementName": "a-input-number",
-                  "value": 0.0,
-                  "props": { "min": 0, "step": 0.1 }
+                  "value": 10.0,
+                  "props": { "min": 0, "step": 0.1, "precision": 1 }
                 }
               ]
             },
@@ -941,9 +977,15 @@
               "label": "是否偏移",
               "data": [
                 {
-                  "elementName": "a-input-number",
-                  "value": 0.0,
-                  "props": { "min": 0, "step": 0.1 }
+                  "elementName": "a-switch",
+                  "value": 1,
+                  "props": {
+                    "checkedChildren": 1,
+                    "checkedValue": 1,
+                    "unCheckedChildren": 0,
+                    "unCheckedValue": 0,
+                    "style": { "flex": "none" }
+                  }
                 }
               ]
             },
@@ -953,7 +995,7 @@
                 {
                   "elementName": "a-input-number",
                   "value": 0.0,
-                  "props": { "min": 0, "step": 0.1 }
+                  "props": { "min": 0, "step": 0.1, "precision": 1 }
                 }
               ]
             },
@@ -963,7 +1005,7 @@
                 {
                   "elementName": "a-input-number",
                   "value": 0.0,
-                  "props": { "min": 0, "step": 0.1 }
+                  "props": { "min": 0, "step": 0.1, "precision": 1 }
                 }
               ]
             }
@@ -982,18 +1024,18 @@
               "data": [
                 {
                   "elementName": "a-input-number",
-                  "value": 0.0,
-                  "props": { "min": 0, "step": 0.1 }
+                  "value": 10.0,
+                  "props": { "min": 0, "step": 0.1, "precision": 1 }
                 },
                 {
                   "elementName": "a-input-number",
-                  "value": 0.0,
-                  "props": { "min": 0, "step": 0.1 }
+                  "value": 10.0,
+                  "props": { "min": 0, "step": 0.1, "precision": 1 }
                 },
                 {
                   "elementName": "a-input-number",
-                  "value": 0.0,
-                  "props": { "min": 0, "step": 0.1 }
+                  "value": 10.0,
+                  "props": { "min": 0, "step": 0.1, "precision": 1 }
                 }
               ]
             },
@@ -1001,9 +1043,15 @@
               "label": "是否偏移",
               "data": [
                 {
-                  "elementName": "a-input-number",
-                  "value": 0.0,
-                  "props": { "min": 0, "step": 0.1 }
+                  "elementName": "a-switch",
+                  "value": 1,
+                  "props": {
+                    "checkedChildren": 1,
+                    "checkedValue": 1,
+                    "unCheckedChildren": 0,
+                    "unCheckedValue": 0,
+                    "style": { "flex": "none" }
+                  }
                 }
               ]
             },
@@ -1013,7 +1061,7 @@
                 {
                   "elementName": "a-input-number",
                   "value": 0.0,
-                  "props": { "min": 0, "step": 0.1 }
+                  "props": { "min": 0, "step": 0.1, "precision": 1 }
                 }
               ]
             },
@@ -1023,7 +1071,7 @@
                 {
                   "elementName": "a-input-number",
                   "value": 0.0,
-                  "props": { "min": 0, "step": 0.1 }
+                  "props": { "min": 0, "step": 0.1, "precision": 1 }
                 }
               ]
             }
@@ -1042,18 +1090,18 @@
               "data": [
                 {
                   "elementName": "a-input-number",
-                  "value": 0.0,
-                  "props": { "min": 0, "step": 0.1 }
+                  "value": 10.0,
+                  "props": { "min": 0, "step": 0.1, "precision": 1 }
                 },
                 {
                   "elementName": "a-input-number",
-                  "value": 0.0,
-                  "props": { "min": 0, "step": 0.1 }
+                  "value": 10.0,
+                  "props": { "min": 0, "step": 0.1, "precision": 1 }
                 },
                 {
                   "elementName": "a-input-number",
-                  "value": 0.0,
-                  "props": { "min": 0, "step": 0.1 }
+                  "value": 10.0,
+                  "props": { "min": 0, "step": 0.1, "precision": 1 }
                 }
               ]
             },
@@ -1061,9 +1109,15 @@
               "label": "是否偏移",
               "data": [
                 {
-                  "elementName": "a-input-number",
-                  "value": 0.0,
-                  "props": { "min": 0, "step": 0.1 }
+                  "elementName": "a-switch",
+                  "value": 1,
+                  "props": {
+                    "checkedChildren": 1,
+                    "checkedValue": 1,
+                    "unCheckedChildren": 0,
+                    "unCheckedValue": 0,
+                    "style": { "flex": "none" }
+                  }
                 }
               ]
             },
@@ -1073,7 +1127,7 @@
                 {
                   "elementName": "a-input-number",
                   "value": 0.0,
-                  "props": { "min": 0, "step": 0.1 }
+                  "props": { "min": 0, "step": 0.1, "precision": 1 }
                 }
               ]
             },
@@ -1083,7 +1137,7 @@
                 {
                   "elementName": "a-input-number",
                   "value": 0.0,
-                  "props": { "min": 0, "step": 0.1 }
+                  "props": { "min": 0, "step": 0.1, "precision": 1 }
                 }
               ]
             }
@@ -1106,22 +1160,32 @@
           "hidden": false,
           "elementData": [
             {
+              "label": "种子点数量",
+              "data": [
+                {
+                  "elementName": "a-input-number",
+                  "value": 100,
+                  "props": { "min": 0, "step": 1, "precision": 0 }
+                }
+              ]
+            },
+            {
               "label": "种子点的空间范围",
               "data": [
                 {
                   "elementName": "a-input-number",
                   "value": 1.0,
-                  "props": { "min": 0, "step": 0.1 }
+                  "props": { "min": 0, "step": 0.1, "precision": 1 }
                 },
                 {
                   "elementName": "a-input-number",
                   "value": 1.0,
-                  "props": { "min": 0, "step": 0.1 }
+                  "props": { "min": 0, "step": 0.1, "precision": 1 }
                 },
                 {
                   "elementName": "a-input-number",
                   "value": 1.0,
-                  "props": { "min": 0, "step": 0.1 }
+                  "props": { "min": 0, "step": 0.1, "precision": 1 }
                 }
               ]
             },
@@ -1182,12 +1246,12 @@
                 {
                   "elementName": "a-input-number",
                   "value": 1.0,
-                  "props": { "min": 0, "step": 0.1 }
+                  "props": { "min": 0, "step": 0.1, "precision": 1 }
                 },
                 {
                   "elementName": "a-input-number",
                   "value": 1.0,
-                  "props": { "min": 0, "step": 0.1 }
+                  "props": { "min": 0, "step": 0.1, "precision": 1 }
                 }
               ]
             },
@@ -1213,12 +1277,32 @@
                 {
                   "elementName": "a-input-number",
                   "value": 0.2,
-                  "props": { "min": 0, "step": 0.1 }
+                  "props": { "min": 0, "step": 0.1, "precision": 1 }
                 },
                 {
                   "elementName": "a-input-number",
                   "value": 0.2,
-                  "props": { "min": 0, "step": 0.1 }
+                  "props": { "min": 0, "step": 0.1, "precision": 1 }
+                }
+              ]
+            },
+            {
+              "label": "外形偏移值",
+              "data": [
+                {
+                  "elementName": "a-input-number",
+                  "value": 0.5,
+                  "props": { "min": 0, "step": 0.1, "precision": 1 }
+                }
+              ]
+            },
+            {
+              "label": "delta",
+              "data": [
+                {
+                  "elementName": "a-input-number",
+                  "value": 0.5,
+                  "props": { "min": 0, "step": 0.1, "precision": 1 }
                 }
               ]
             }
@@ -1274,6 +1358,36 @@
                   "value": null
                 }
               ]
+            },
+            {
+              "label": "s_s",
+              "data": [
+                {
+                  "elementName": "a-input-number",
+                  "value": 1.0,
+                  "props": { "min": 0, "step": 0.1, "precision": 1 }
+                }
+              ]
+            },
+            {
+              "label": "s_e",
+              "data": [
+                {
+                  "elementName": "a-input-number",
+                  "value": 1.0,
+                  "props": { "min": 0, "step": 0.1, "precision": 1 }
+                }
+              ]
+            },
+            {
+              "label": "s_m",
+              "data": [
+                {
+                  "elementName": "a-input-number",
+                  "value": 0.0,
+                  "props": { "min": 0, "step": 0.1, "precision": 1 }
+                }
+              ]
             }
           ]
         },
@@ -1300,7 +1414,7 @@
                 {
                   "elementName": "a-input-number",
                   "value": 0.0,
-                  "props": { "min": 0, "step": 0.1 }
+                  "props": { "min": 0, "step": 0.1, "precision": 1 }
                 }
               ]
             },
@@ -1310,7 +1424,7 @@
                 {
                   "elementName": "a-input-number",
                   "value": 0.0,
-                  "props": { "min": 0, "step": 0.1 }
+                  "props": { "min": 0, "step": 0.1, "precision": 1 }
                 }
               ]
             }
