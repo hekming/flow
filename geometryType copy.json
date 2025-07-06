@@ -13,24 +13,23 @@
           "className": "基本体",
           "description": "",
           "hidden": false,
-          "anchor": { "left": 0, "right": 1, "top": 0, "bottom": 0 },
           "elementData": [
             {
               "label": "中心坐标",
               "data": [
                 {
                   "elementName": "a-input-number",
-                  "value": 0,
+                  "value": 0.0,
                   "props": { "min": 0, "step": 0.1, "precision": 1 }
                 },
                 {
                   "elementName": "a-input-number",
-                  "value": 0,
+                  "value": 0.0,
                   "props": { "min": 0, "step": 0.1, "precision": 1 }
                 },
                 {
                   "elementName": "a-input-number",
-                  "value": 0,
+                  "value": 0.0,
                   "props": { "min": 0, "step": 0.1, "precision": 1 }
                 }
               ]
@@ -40,37 +39,57 @@
               "data": [
                 {
                   "elementName": "a-input-number",
-                  "value": 1,
+                  "value": 1.0,
                   "props": { "min": 0, "step": 0.1, "precision": 1 }
                 },
                 {
                   "elementName": "a-input-number",
-                  "value": 1,
+                  "value": 1.0,
                   "props": { "min": 0, "step": 0.1, "precision": 1 }
                 },
                 {
                   "elementName": "a-input-number",
-                  "value": 1,
+                  "value": 1.0,
                   "props": { "min": 0, "step": 0.1, "precision": 1 }
                 }
               ]
             },
             {
-              "label": "长宽高",
+              "label": "长",
               "data": [
                 {
                   "elementName": "a-input-number",
-                  "value": 0,
+                  "value": 0.0,
                   "props": { "min": 0, "step": 0.1, "precision": 1 }
                 },
                 {
                   "elementName": "a-input-number",
-                  "value": 0,
+                  "value": 0.0,
                   "props": { "min": 0, "step": 0.1, "precision": 1 }
                 },
                 {
                   "elementName": "a-input-number",
-                  "value": 0,
+                  "value": 0.0,
+                  "props": { "min": 0, "step": 0.1, "precision": 1 }
+                }
+              ]
+            },
+            {
+              "label": "宽",
+              "data": [
+                {
+                  "elementName": "a-input-number",
+                  "value": 1.0,
+                  "props": { "min": 0, "step": 0.1, "precision": 1 }
+                }
+              ]
+            },
+            {
+              "label": "高",
+              "data": [
+                {
+                  "elementName": "a-input-number",
+                  "value": 1.0,
                   "props": { "min": 0, "step": 0.1, "precision": 1 }
                 }
               ]
@@ -84,24 +103,23 @@
           "className": "基本体",
           "description": "",
           "hidden": false,
-          "anchor": { "left": 0, "right": 1, "top": 0, "bottom": 0 },
           "elementData": [
             {
               "label": "中心坐标",
               "data": [
                 {
                   "elementName": "a-input-number",
-                  "value": 0,
+                  "value": 0.0,
                   "props": { "min": 0, "step": 0.1, "precision": 1 }
                 },
                 {
                   "elementName": "a-input-number",
-                  "value": 0,
+                  "value": 0.0,
                   "props": { "min": 0, "step": 0.1, "precision": 1 }
                 },
                 {
                   "elementName": "a-input-number",
-                  "value": 0,
+                  "value": 0.0,
                   "props": { "min": 0, "step": 0.1, "precision": 1 }
                 }
               ]
@@ -111,7 +129,7 @@
               "data": [
                 {
                   "elementName": "a-input-number",
-                  "value": 1,
+                  "value": 1.0,
                   "props": { "min": 0, "step": 0.1, "precision": 1 }
                 }
               ]
@@ -125,24 +143,23 @@
           "className": "基本体",
           "description": "",
           "hidden": false,
-          "anchor": { "left": 0, "right": 1, "top": 0, "bottom": 0 },
           "elementData": [
             {
               "label": "中心坐标",
               "data": [
                 {
                   "elementName": "a-input-number",
-                  "value": 0,
+                  "value": 0.0,
                   "props": { "min": 0, "step": 0.1, "precision": 1 }
                 },
                 {
                   "elementName": "a-input-number",
-                  "value": 0,
+                  "value": 0.0,
                   "props": { "min": 0, "step": 0.1, "precision": 1 }
                 },
                 {
                   "elementName": "a-input-number",
-                  "value": 0,
+                  "value": 0.0,
                   "props": { "min": 0, "step": 0.1, "precision": 1 }
                 }
               ]
@@ -152,12 +169,12 @@
               "data": [
                 {
                   "elementName": "a-input-number",
-                  "value": 1,
+                  "value": 1.0,
                   "props": { "min": 0, "step": 0.1, "precision": 1 }
                 },
                 {
                   "elementName": "a-input-number",
-                  "value": 1,
+                  "value": 1.0,
                   "props": { "min": 0, "step": 0.1, "precision": 1 }
                 }
               ]
@@ -167,17 +184,17 @@
               "data": [
                 {
                   "elementName": "a-input-number",
-                  "value": 1,
+                  "value": 1.0,
                   "props": { "min": 0, "step": 0.1, "precision": 1 }
                 },
                 {
                   "elementName": "a-input-number",
-                  "value": 1,
+                  "value": 1.0,
                   "props": { "min": 0, "step": 0.1, "precision": 1 }
                 },
                 {
                   "elementName": "a-input-number",
-                  "value": 1,
+                  "value": 1.0,
                   "props": { "min": 0, "step": 0.1, "precision": 1 }
                 }
               ]
@@ -187,7 +204,7 @@
               "data": [
                 {
                   "elementName": "a-input-number",
-                  "value": 1,
+                  "value": 1.0,
                   "props": { "min": 0, "step": 0.1, "precision": 1 }
                 }
               ]
@@ -201,24 +218,23 @@
           "className": "基本体",
           "description": "",
           "hidden": false,
-          "anchor": { "left": 0, "right": 1, "top": 0, "bottom": 0 },
           "elementData": [
             {
               "label": "顶点1",
               "data": [
                 {
                   "elementName": "a-input-number",
-                  "value": 0,
+                  "value": 0.0,
                   "props": { "min": 0, "step": 0.1, "precision": 1 }
                 },
                 {
                   "elementName": "a-input-number",
-                  "value": 0,
+                  "value": 0.0,
                   "props": { "min": 0, "step": 0.1, "precision": 1 }
                 },
                 {
                   "elementName": "a-input-number",
-                  "value": 0,
+                  "value": 0.0,
                   "props": { "min": 0, "step": 0.1, "precision": 1 }
                 }
               ]
@@ -228,17 +244,17 @@
               "data": [
                 {
                   "elementName": "a-input-number",
-                  "value": 1,
+                  "value": 1.0,
                   "props": { "min": 0, "step": 0.1, "precision": 1 }
                 },
                 {
                   "elementName": "a-input-number",
-                  "value": 1,
+                  "value": 1.0,
                   "props": { "min": 0, "step": 0.1, "precision": 1 }
                 },
                 {
                   "elementName": "a-input-number",
-                  "value": 1,
+                  "value": 1.0,
                   "props": { "min": 0, "step": 0.1, "precision": 1 }
                 }
               ]
@@ -248,7 +264,7 @@
               "data": [
                 {
                   "elementName": "a-input-number",
-                  "value": 1,
+                  "value": 1.0,
                   "props": { "min": 0, "step": 0.1, "precision": 1 }
                 }
               ]
@@ -262,24 +278,23 @@
           "className": "基本体",
           "description": "",
           "hidden": false,
-          "anchor": { "left": 0, "right": 1, "top": 0, "bottom": 0 },
           "elementData": [
             {
               "label": "顶点1",
               "data": [
                 {
                   "elementName": "a-input-number",
-                  "value": 0,
+                  "value": 0.0,
                   "props": { "min": 0, "step": 0.1, "precision": 1 }
                 },
                 {
                   "elementName": "a-input-number",
-                  "value": 0,
+                  "value": 0.0,
                   "props": { "min": 0, "step": 0.1, "precision": 1 }
                 },
                 {
                   "elementName": "a-input-number",
-                  "value": 0,
+                  "value": 0.0,
                   "props": { "min": 0, "step": 0.1, "precision": 1 }
                 }
               ]
@@ -289,17 +304,17 @@
               "data": [
                 {
                   "elementName": "a-input-number",
-                  "value": 0,
+                  "value": 0.0,
                   "props": { "min": 0, "step": 0.1, "precision": 1 }
                 },
                 {
                   "elementName": "a-input-number",
-                  "value": 0,
+                  "value": 0.0,
                   "props": { "min": 0, "step": 0.1, "precision": 1 }
                 },
                 {
                   "elementName": "a-input-number",
-                  "value": 0,
+                  "value": 0.0,
                   "props": { "min": 0, "step": 0.1, "precision": 1 }
                 }
               ]
@@ -309,17 +324,17 @@
               "data": [
                 {
                   "elementName": "a-input-number",
-                  "value": 0,
+                  "value": 0.0,
                   "props": { "min": 0, "step": 0.1, "precision": 1 }
                 },
                 {
                   "elementName": "a-input-number",
-                  "value": 0,
+                  "value": 0.0,
                   "props": { "min": 0, "step": 0.1, "precision": 1 }
                 },
                 {
                   "elementName": "a-input-number",
-                  "value": 0,
+                  "value": 0.0,
                   "props": { "min": 0, "step": 0.1, "precision": 1 }
                 }
               ]
@@ -329,17 +344,17 @@
               "data": [
                 {
                   "elementName": "a-input-number",
-                  "value": 0,
+                  "value": 0.0,
                   "props": { "min": 0, "step": 0.1, "precision": 1 }
                 },
                 {
                   "elementName": "a-input-number",
-                  "value": 0,
+                  "value": 0.0,
                   "props": { "min": 0, "step": 0.1, "precision": 1 }
                 },
                 {
                   "elementName": "a-input-number",
-                  "value": 0,
+                  "value": 0.0,
                   "props": { "min": 0, "step": 0.1, "precision": 1 }
                 }
               ]
@@ -353,24 +368,23 @@
           "className": "基本体",
           "description": "",
           "hidden": false,
-          "anchor": { "left": 0, "right": 1, "top": 0, "bottom": 0 },
           "elementData": [
             {
               "label": "顶点1",
               "data": [
                 {
                   "elementName": "a-input-number",
-                  "value": 0,
+                  "value": 0.0,
                   "props": { "min": 0, "step": 0.1, "precision": 1 }
                 },
                 {
                   "elementName": "a-input-number",
-                  "value": 0,
+                  "value": 0.0,
                   "props": { "min": 0, "step": 0.1, "precision": 1 }
                 },
                 {
                   "elementName": "a-input-number",
-                  "value": 0,
+                  "value": 0.0,
                   "props": { "min": 0, "step": 0.1, "precision": 1 }
                 }
               ]
@@ -380,17 +394,17 @@
               "data": [
                 {
                   "elementName": "a-input-number",
-                  "value": 0,
+                  "value": 0.0,
                   "props": { "min": 0, "step": 0.1, "precision": 1 }
                 },
                 {
                   "elementName": "a-input-number",
-                  "value": 0,
+                  "value": 0.0,
                   "props": { "min": 0, "step": 0.1, "precision": 1 }
                 },
                 {
                   "elementName": "a-input-number",
-                  "value": 0,
+                  "value": 0.0,
                   "props": { "min": 0, "step": 0.1, "precision": 1 }
                 }
               ]
@@ -400,7 +414,7 @@
               "data": [
                 {
                   "elementName": "a-input-number",
-                  "value": 0,
+                  "value": 0.0,
                   "props": { "min": 0, "step": 0.1, "precision": 1 }
                 }
               ]
@@ -414,24 +428,23 @@
           "className": "基本体",
           "description": "",
           "hidden": false,
-          "anchor": { "left": 0, "right": 1, "top": 0, "bottom": 0 },
           "elementData": [
             {
               "label": "中心坐标",
               "data": [
                 {
                   "elementName": "a-input-number",
-                  "value": 0,
+                  "value": 0.0,
                   "props": { "min": 0, "step": 0.1, "precision": 1 }
                 },
                 {
                   "elementName": "a-input-number",
-                  "value": 0,
+                  "value": 0.0,
                   "props": { "min": 0, "step": 0.1, "precision": 1 }
                 },
                 {
                   "elementName": "a-input-number",
-                  "value": 0,
+                  "value": 0.0,
                   "props": { "min": 0, "step": 0.1, "precision": 1 }
                 }
               ]
@@ -441,7 +454,7 @@
               "data": [
                 {
                   "elementName": "a-input-number",
-                  "value": 0,
+                  "value": 0.0,
                   "props": { "min": 0, "step": 0.1, "precision": 1 }
                 }
               ]
@@ -451,7 +464,7 @@
               "data": [
                 {
                   "elementName": "a-input-number",
-                  "value": 0,
+                  "value": 0.0,
                   "props": { "min": 0, "step": 0.1, "precision": 1 }
                 }
               ]
@@ -461,17 +474,17 @@
               "data": [
                 {
                   "elementName": "a-input-number",
-                  "value": 0,
+                  "value": 0.0,
                   "props": { "min": 0, "step": 0.1, "precision": 1 }
                 },
                 {
                   "elementName": "a-input-number",
-                  "value": 0,
+                  "value": 0.0,
                   "props": { "min": 0, "step": 0.1, "precision": 1 }
                 },
                 {
                   "elementName": "a-input-number",
-                  "value": 0,
+                  "value": 0.0,
                   "props": { "min": 0, "step": 0.1, "precision": 1 }
                 }
               ]
@@ -485,24 +498,23 @@
           "className": "基本体",
           "description": "",
           "hidden": false,
-          "anchor": { "left": 0, "right": 1, "top": 0, "bottom": 0 },
           "elementData": [
             {
               "label": "平面法向量",
               "data": [
                 {
                   "elementName": "a-input-number",
-                  "value": 0,
+                  "value": 0.0,
                   "props": { "min": 0, "step": 0.1, "precision": 1 }
                 },
                 {
                   "elementName": "a-input-number",
-                  "value": 0,
+                  "value": 0.0,
                   "props": { "min": 0, "step": 0.1, "precision": 1 }
                 },
                 {
                   "elementName": "a-input-number",
-                  "value": 0,
+                  "value": 0.0,
                   "props": { "min": 0, "step": 0.1, "precision": 1 }
                 }
               ]
@@ -512,7 +524,7 @@
               "data": [
                 {
                   "elementName": "a-input-number",
-                  "value": 0,
+                  "value": 0.0,
                   "props": { "min": 0, "step": 0.1, "precision": 1 }
                 }
               ]
@@ -522,7 +534,7 @@
               "data": [
                 {
                   "elementName": "a-input-number",
-                  "value": 0,
+                  "value": 0.0,
                   "props": { "min": 0, "step": 0.1, "precision": 1 }
                 }
               ]
@@ -532,7 +544,7 @@
               "data": [
                 {
                   "elementName": "a-input-number",
-                  "value": 0,
+                  "value": 0.0,
                   "props": { "min": 0, "step": 0.1, "precision": 1 }
                 }
               ]
@@ -554,24 +566,23 @@
           "className": "TPMS",
           "description": "",
           "hidden": false,
-          "anchor": { "left": 0, "right": 1, "top": 0, "bottom": 0 },
           "elementData": [
             {
               "label": "xyz的权重系数",
               "data": [
                 {
                   "elementName": "a-input-number",
-                  "value": 10,
+                  "value": 10.0,
                   "props": { "min": 0, "step": 0.1, "precision": 1 }
                 },
                 {
                   "elementName": "a-input-number",
-                  "value": 10,
+                  "value": 10.0,
                   "props": { "min": 0, "step": 0.1, "precision": 1 }
                 },
                 {
                   "elementName": "a-input-number",
-                  "value": 10,
+                  "value": 10.0,
                   "props": { "min": 0, "step": 0.1, "precision": 1 }
                 }
               ]
@@ -587,9 +598,7 @@
                     "checkedValue": 1,
                     "unCheckedChildren": 0,
                     "unCheckedValue": 0,
-                    "style": {
-                      "flex": "none"
-                    }
+                    "style": { "flex": "none" }
                   }
                 }
               ]
@@ -599,7 +608,7 @@
               "data": [
                 {
                   "elementName": "a-input-number",
-                  "value": 0,
+                  "value": 0.0,
                   "props": { "min": 0, "step": 0.1, "precision": 1 }
                 }
               ]
@@ -609,7 +618,7 @@
               "data": [
                 {
                   "elementName": "a-input-number",
-                  "value": 0,
+                  "value": 0.0,
                   "props": { "min": 0, "step": 0.1, "precision": 1 }
                 }
               ]
@@ -623,24 +632,23 @@
           "className": "TPMS",
           "description": "",
           "hidden": false,
-          "anchor": { "left": 0, "right": 1, "top": 0, "bottom": 0 },
           "elementData": [
             {
               "label": "xyz的权重系数",
               "data": [
                 {
                   "elementName": "a-input-number",
-                  "value": 10,
+                  "value": 10.0,
                   "props": { "min": 0, "step": 0.1, "precision": 1 }
                 },
                 {
                   "elementName": "a-input-number",
-                  "value": 10,
+                  "value": 10.0,
                   "props": { "min": 0, "step": 0.1, "precision": 1 }
                 },
                 {
                   "elementName": "a-input-number",
-                  "value": 10,
+                  "value": 10.0,
                   "props": { "min": 0, "step": 0.1, "precision": 1 }
                 }
               ]
@@ -656,9 +664,7 @@
                     "checkedValue": 1,
                     "unCheckedChildren": 0,
                     "unCheckedValue": 0,
-                    "style": {
-                      "flex": "none"
-                    }
+                    "style": { "flex": "none" }
                   }
                 }
               ]
@@ -668,7 +674,7 @@
               "data": [
                 {
                   "elementName": "a-input-number",
-                  "value": 0,
+                  "value": 0.0,
                   "props": { "min": 0, "step": 0.1, "precision": 1 }
                 }
               ]
@@ -678,7 +684,7 @@
               "data": [
                 {
                   "elementName": "a-input-number",
-                  "value": 0,
+                  "value": 0.0,
                   "props": { "min": 0, "step": 0.1, "precision": 1 }
                 }
               ]
@@ -692,24 +698,23 @@
           "className": "TPMS",
           "description": "",
           "hidden": false,
-          "anchor": { "left": 0, "right": 1, "top": 0, "bottom": 0 },
           "elementData": [
             {
               "label": "xyz的权重系数",
               "data": [
                 {
                   "elementName": "a-input-number",
-                  "value": 10,
+                  "value": 10.0,
                   "props": { "min": 0, "step": 0.1, "precision": 1 }
                 },
                 {
                   "elementName": "a-input-number",
-                  "value": 10,
+                  "value": 10.0,
                   "props": { "min": 0, "step": 0.1, "precision": 1 }
                 },
                 {
                   "elementName": "a-input-number",
-                  "value": 10,
+                  "value": 10.0,
                   "props": { "min": 0, "step": 0.1, "precision": 1 }
                 }
               ]
@@ -725,9 +730,7 @@
                     "checkedValue": 1,
                     "unCheckedChildren": 0,
                     "unCheckedValue": 0,
-                    "style": {
-                      "flex": "none"
-                    }
+                    "style": { "flex": "none" }
                   }
                 }
               ]
@@ -737,7 +740,7 @@
               "data": [
                 {
                   "elementName": "a-input-number",
-                  "value": 0,
+                  "value": 0.0,
                   "props": { "min": 0, "step": 0.1, "precision": 1 }
                 }
               ]
@@ -747,7 +750,7 @@
               "data": [
                 {
                   "elementName": "a-input-number",
-                  "value": 0,
+                  "value": 0.0,
                   "props": { "min": 0, "step": 0.1, "precision": 1 }
                 }
               ]
@@ -761,24 +764,23 @@
           "className": "TPMS",
           "description": "",
           "hidden": false,
-          "anchor": { "left": 0, "right": 1, "top": 0, "bottom": 0 },
           "elementData": [
             {
               "label": "xyz的权重系数",
               "data": [
                 {
                   "elementName": "a-input-number",
-                  "value": 10,
+                  "value": 10.0,
                   "props": { "min": 0, "step": 0.1, "precision": 1 }
                 },
                 {
                   "elementName": "a-input-number",
-                  "value": 10,
+                  "value": 10.0,
                   "props": { "min": 0, "step": 0.1, "precision": 1 }
                 },
                 {
                   "elementName": "a-input-number",
-                  "value": 10,
+                  "value": 10.0,
                   "props": { "min": 0, "step": 0.1, "precision": 1 }
                 }
               ]
@@ -794,9 +796,7 @@
                     "checkedValue": 1,
                     "unCheckedChildren": 0,
                     "unCheckedValue": 0,
-                    "style": {
-                      "flex": "none"
-                    }
+                    "style": { "flex": "none" }
                   }
                 }
               ]
@@ -806,7 +806,7 @@
               "data": [
                 {
                   "elementName": "a-input-number",
-                  "value": 0,
+                  "value": 0.0,
                   "props": { "min": 0, "step": 0.1, "precision": 1 }
                 }
               ]
@@ -816,7 +816,7 @@
               "data": [
                 {
                   "elementName": "a-input-number",
-                  "value": 0,
+                  "value": 0.0,
                   "props": { "min": 0, "step": 0.1, "precision": 1 }
                 }
               ]
@@ -830,24 +830,23 @@
           "className": "TPMS",
           "description": "",
           "hidden": false,
-          "anchor": { "left": 0, "right": 1, "top": 0, "bottom": 0 },
           "elementData": [
             {
               "label": "xyz的权重系数",
               "data": [
                 {
                   "elementName": "a-input-number",
-                  "value": 10,
+                  "value": 10.0,
                   "props": { "min": 0, "step": 0.1, "precision": 1 }
                 },
                 {
                   "elementName": "a-input-number",
-                  "value": 10,
+                  "value": 10.0,
                   "props": { "min": 0, "step": 0.1, "precision": 1 }
                 },
                 {
                   "elementName": "a-input-number",
-                  "value": 10,
+                  "value": 10.0,
                   "props": { "min": 0, "step": 0.1, "precision": 1 }
                 }
               ]
@@ -863,9 +862,7 @@
                     "checkedValue": 1,
                     "unCheckedChildren": 0,
                     "unCheckedValue": 0,
-                    "style": {
-                      "flex": "none"
-                    }
+                    "style": { "flex": "none" }
                   }
                 }
               ]
@@ -875,7 +872,7 @@
               "data": [
                 {
                   "elementName": "a-input-number",
-                  "value": 0,
+                  "value": 0.0,
                   "props": { "min": 0, "step": 0.1, "precision": 1 }
                 }
               ]
@@ -885,7 +882,7 @@
               "data": [
                 {
                   "elementName": "a-input-number",
-                  "value": 0,
+                  "value": 0.0,
                   "props": { "min": 0, "step": 0.1, "precision": 1 }
                 }
               ]
@@ -899,24 +896,23 @@
           "className": "TPMS",
           "description": "",
           "hidden": false,
-          "anchor": { "left": 0, "right": 1, "top": 0, "bottom": 0 },
           "elementData": [
             {
               "label": "xyz的权重系数",
               "data": [
                 {
                   "elementName": "a-input-number",
-                  "value": 10,
+                  "value": 10.0,
                   "props": { "min": 0, "step": 0.1, "precision": 1 }
                 },
                 {
                   "elementName": "a-input-number",
-                  "value": 10,
+                  "value": 10.0,
                   "props": { "min": 0, "step": 0.1, "precision": 1 }
                 },
                 {
                   "elementName": "a-input-number",
-                  "value": 10,
+                  "value": 10.0,
                   "props": { "min": 0, "step": 0.1, "precision": 1 }
                 }
               ]
@@ -932,9 +928,7 @@
                     "checkedValue": 1,
                     "unCheckedChildren": 0,
                     "unCheckedValue": 0,
-                    "style": {
-                      "flex": "none"
-                    }
+                    "style": { "flex": "none" }
                   }
                 }
               ]
@@ -944,7 +938,7 @@
               "data": [
                 {
                   "elementName": "a-input-number",
-                  "value": 0,
+                  "value": 0.0,
                   "props": { "min": 0, "step": 0.1, "precision": 1 }
                 }
               ]
@@ -954,7 +948,7 @@
               "data": [
                 {
                   "elementName": "a-input-number",
-                  "value": 0,
+                  "value": 0.0,
                   "props": { "min": 0, "step": 0.1, "precision": 1 }
                 }
               ]
@@ -968,24 +962,23 @@
           "className": "TPMS",
           "description": "",
           "hidden": false,
-          "anchor": { "left": 0, "right": 1, "top": 0, "bottom": 0 },
           "elementData": [
             {
               "label": "xyz的权重系数",
               "data": [
                 {
                   "elementName": "a-input-number",
-                  "value": 10,
+                  "value": 10.0,
                   "props": { "min": 0, "step": 0.1, "precision": 1 }
                 },
                 {
                   "elementName": "a-input-number",
-                  "value": 10,
+                  "value": 10.0,
                   "props": { "min": 0, "step": 0.1, "precision": 1 }
                 },
                 {
                   "elementName": "a-input-number",
-                  "value": 10,
+                  "value": 10.0,
                   "props": { "min": 0, "step": 0.1, "precision": 1 }
                 }
               ]
@@ -1001,9 +994,7 @@
                     "checkedValue": 1,
                     "unCheckedChildren": 0,
                     "unCheckedValue": 0,
-                    "style": {
-                      "flex": "none"
-                    }
+                    "style": { "flex": "none" }
                   }
                 }
               ]
@@ -1013,7 +1004,7 @@
               "data": [
                 {
                   "elementName": "a-input-number",
-                  "value": 0,
+                  "value": 0.0,
                   "props": { "min": 0, "step": 0.1, "precision": 1 }
                 }
               ]
@@ -1023,7 +1014,7 @@
               "data": [
                 {
                   "elementName": "a-input-number",
-                  "value": 0,
+                  "value": 0.0,
                   "props": { "min": 0, "step": 0.1, "precision": 1 }
                 }
               ]
@@ -1037,24 +1028,23 @@
           "className": "TPMS",
           "description": "",
           "hidden": false,
-          "anchor": { "left": 0, "right": 1, "top": 0, "bottom": 0 },
           "elementData": [
             {
               "label": "xyz的权重系数",
               "data": [
                 {
                   "elementName": "a-input-number",
-                  "value": 10,
+                  "value": 10.0,
                   "props": { "min": 0, "step": 0.1, "precision": 1 }
                 },
                 {
                   "elementName": "a-input-number",
-                  "value": 10,
+                  "value": 10.0,
                   "props": { "min": 0, "step": 0.1, "precision": 1 }
                 },
                 {
                   "elementName": "a-input-number",
-                  "value": 10,
+                  "value": 10.0,
                   "props": { "min": 0, "step": 0.1, "precision": 1 }
                 }
               ]
@@ -1070,9 +1060,7 @@
                     "checkedValue": 1,
                     "unCheckedChildren": 0,
                     "unCheckedValue": 0,
-                    "style": {
-                      "flex": "none"
-                    }
+                    "style": { "flex": "none" }
                   }
                 }
               ]
@@ -1082,7 +1070,7 @@
               "data": [
                 {
                   "elementName": "a-input-number",
-                  "value": 0,
+                  "value": 0.0,
                   "props": { "min": 0, "step": 0.1, "precision": 1 }
                 }
               ]
@@ -1092,7 +1080,7 @@
               "data": [
                 {
                   "elementName": "a-input-number",
-                  "value": 0,
+                  "value": 0.0,
                   "props": { "min": 0, "step": 0.1, "precision": 1 }
                 }
               ]
@@ -1106,24 +1094,23 @@
           "className": "TPMS",
           "description": "",
           "hidden": false,
-          "anchor": { "left": 0, "right": 1, "top": 0, "bottom": 0 },
           "elementData": [
             {
               "label": "xyz的权重系数",
               "data": [
                 {
                   "elementName": "a-input-number",
-                  "value": 10,
+                  "value": 10.0,
                   "props": { "min": 0, "step": 0.1, "precision": 1 }
                 },
                 {
                   "elementName": "a-input-number",
-                  "value": 10,
+                  "value": 10.0,
                   "props": { "min": 0, "step": 0.1, "precision": 1 }
                 },
                 {
                   "elementName": "a-input-number",
-                  "value": 10,
+                  "value": 10.0,
                   "props": { "min": 0, "step": 0.1, "precision": 1 }
                 }
               ]
@@ -1139,9 +1126,7 @@
                     "checkedValue": 1,
                     "unCheckedChildren": 0,
                     "unCheckedValue": 0,
-                    "style": {
-                      "flex": "none"
-                    }
+                    "style": { "flex": "none" }
                   }
                 }
               ]
@@ -1151,7 +1136,7 @@
               "data": [
                 {
                   "elementName": "a-input-number",
-                  "value": 0,
+                  "value": 0.0,
                   "props": { "min": 0, "step": 0.1, "precision": 1 }
                 }
               ]
@@ -1161,7 +1146,7 @@
               "data": [
                 {
                   "elementName": "a-input-number",
-                  "value": 0,
+                  "value": 0.0,
                   "props": { "min": 0, "step": 0.1, "precision": 1 }
                 }
               ]
@@ -1183,7 +1168,6 @@
           "className": "Voronoi",
           "description": "表面维诺 Voronoi Face",
           "hidden": false,
-          "anchor": { "left": 0, "right": 1, "top": 0, "bottom": 0 },
           "elementData": [
             {
               "label": "种子点数量",
@@ -1191,11 +1175,7 @@
                 {
                   "elementName": "a-input-number",
                   "value": 100,
-                  "props": {
-                    "min": 0,
-                    "step": 1,
-                    "precision": 0
-                  }
+                  "props": { "min": 0, "step": 1, "precision": 0 }
                 }
               ]
             },
@@ -1204,17 +1184,17 @@
               "data": [
                 {
                   "elementName": "a-input-number",
-                  "value": 1,
+                  "value": 1.0,
                   "props": { "min": 0, "step": 0.1, "precision": 1 }
                 },
                 {
                   "elementName": "a-input-number",
-                  "value": 1,
+                  "value": 1.0,
                   "props": { "min": 0, "step": 0.1, "precision": 1 }
                 },
                 {
                   "elementName": "a-input-number",
-                  "value": 1,
+                  "value": 1.0,
                   "props": { "min": 0, "step": 0.1, "precision": 1 }
                 }
               ]
@@ -1230,9 +1210,7 @@
                     "checkedValue": 1,
                     "unCheckedChildren": 0,
                     "unCheckedValue": 0,
-                    "style": {
-                      "flex": "none"
-                    }
+                    "style": { "flex": "none" }
                   }
                 }
               ]
@@ -1243,11 +1221,7 @@
                 {
                   "elementName": "a-input-number",
                   "value": 2,
-                  "props": {
-                    "min": 0,
-                    "step": 1,
-                    "precision": 0
-                  }
+                  "props": { "min": 0, "step": 1, "precision": 0 }
                 }
               ]
             },
@@ -1262,9 +1236,7 @@
                     "checkedValue": 1,
                     "unCheckedChildren": 0,
                     "unCheckedValue": 0,
-                    "style": {
-                      "flex": "none"
-                    }
+                    "style": { "flex": "none" }
                   }
                 }
               ]
@@ -1283,12 +1255,12 @@
               "data": [
                 {
                   "elementName": "a-input-number",
-                  "value": 1,
+                  "value": 1.0,
                   "props": { "min": 0, "step": 0.1, "precision": 1 }
                 },
                 {
                   "elementName": "a-input-number",
-                  "value": 1,
+                  "value": 1.0,
                   "props": { "min": 0, "step": 0.1, "precision": 1 }
                 }
               ]
@@ -1304,9 +1276,7 @@
                     "checkedValue": 1,
                     "unCheckedChildren": 0,
                     "unCheckedValue": 0,
-                    "style": {
-                      "flex": "none"
-                    }
+                    "style": { "flex": "none" }
                   }
                 }
               ]
@@ -1354,9 +1324,7 @@
           "nodeName": "Volume",
           "className": "Voronoi",
           "description": "体积维诺 Voronoi Volume",
-          "hidden": true,
-          "anchor": { "left": 0, "right": 1, "top": 0, "bottom": 0 },
-          "elementData": []
+          "hidden": true
         }
       ]
     },
@@ -1373,7 +1341,6 @@
           "className": "过渡",
           "description": "",
           "hidden": false,
-          "anchor": { "left": 3, "right": 1, "top": 1, "bottom": 1 },
           "elementData": [
             {
               "label": "第一过渡几何体",
@@ -1407,7 +1374,7 @@
               "data": [
                 {
                   "elementName": "a-input-number",
-                  "value": 1,
+                  "value": 1.0,
                   "props": { "min": 0, "step": 0.1, "precision": 1 }
                 }
               ]
@@ -1417,7 +1384,7 @@
               "data": [
                 {
                   "elementName": "a-input-number",
-                  "value": 1,
+                  "value": 1.0,
                   "props": { "min": 0, "step": 0.1, "precision": 1 }
                 }
               ]
@@ -1427,7 +1394,7 @@
               "data": [
                 {
                   "elementName": "a-input-number",
-                  "value": 0,
+                  "value": 0.0,
                   "props": { "min": 0, "step": 0.1, "precision": 1 }
                 }
               ]
@@ -1441,7 +1408,6 @@
           "className": "扭曲",
           "description": "",
           "hidden": false,
-          "anchor": { "left": 1, "right": 1, "top": 0, "bottom": 0 },
           "elementData": [
             {
               "label": "几何体",
@@ -1457,7 +1423,7 @@
               "data": [
                 {
                   "elementName": "a-input-number",
-                  "value": 0,
+                  "value": 0.0,
                   "props": { "min": 0, "step": 0.1, "precision": 1 }
                 }
               ]
@@ -1467,7 +1433,7 @@
               "data": [
                 {
                   "elementName": "a-input-number",
-                  "value": 0,
+                  "value": 0.0,
                   "props": { "min": 0, "step": 0.1, "precision": 1 }
                 }
               ]
