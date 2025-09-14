@@ -1,1 +1,0 @@
-import{_ as r}from"./index-gKy0XVO4-1757862522628.js";import{C as s,D as o}from"./vue-ClA7Vx2P-1757862522628.js";import"./vendor-DATxjExR-1757862522628.js";import"./echarts-BRlZrYo0-1757862522628.js";const t={class:"app-container"};const a=r({},[["render",function(r,a){return o(),s("div",t,"待开发")}],["__scopeId","data-v-5065540b"]]);export{a as default};
