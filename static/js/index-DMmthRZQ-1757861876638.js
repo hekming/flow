@@ -1,1 +1,0 @@
-import{be as a,bm as c,C as n,D as p}from"./vue-paAHqVag-1757861876638.js";import"./vendor-C281bsg_-1757861876638.js";const d={__name:"index",setup(u){const e=a(),t=c(),{params:o,query:r}=e,{path:s}=o;return t.replace({path:"/"+s,query:r}),(m,_)=>(p(),n("div"))}};export{d as default};
