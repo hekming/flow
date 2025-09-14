@@ -1,1 +1,0 @@
-import{_ as e}from"./index-DhJA2A4T-1757862655007.js";import{C as o,D as t}from"./vue-B8mLHCHa-1757862655007.js";import"./vendor-D8XMe0zL-1757862655007.js";import"./echarts-dJPeRg6V-1757862655007.js";const c={},r={class:"app-container"};function n(s,a){return t(),o("div",r,"待开发")}const f=e(c,[["render",n],["__scopeId","data-v-84f88ecd"]]);export{f as default};
