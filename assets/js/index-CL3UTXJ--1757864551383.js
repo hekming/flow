@@ -1,1 +1,0 @@
-import{_ as r}from"./index-DEmqoLJ3-1757864551383.js";import{bD as s,bA as o}from"./vendor-C5ZvC48U-1757864551383.js";import"./echarts-BiwV7ORj-1757864551383.js";const t={class:"app-container"};const a=r({},[["render",function(r,a){return o(),s("div",t,"待开发")}],["__scopeId","data-v-5065540b"]]);export{a as default};
