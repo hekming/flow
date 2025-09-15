@@ -1,0 +1,1 @@
+import{bY as a,cu as e,bD as r,bA as s}from"./vendor-C5ZvC48U-1757864551383.js";const t={__name:"index",setup(t){const p=a(),n=e(),{params:o,query:u}=p,{path:c}=o;return n.replace({path:"/"+c,query:u}),(a,e)=>(s(),r("div"))}};export{t as default};
