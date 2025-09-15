@@ -1,16 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <meta charset="UTF-8" />
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="renderer" content="webkit" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
     <link rel="icon" href="/flow/favicon.ico" />
-    <!-- <link rel="icon" type="image/svg+xml" href="/icon.svg" /> -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>flow-design设计器</title>
+    <title>飞机数据智能分析平台</title>
+    <!--[if lt IE 11
+      ]><script>
+        window.location.href = '/html/ie.html';
+      </script><!
+    [endif]-->
     <style>
+      html,
+      body,
       #app {
         height: 100%;
-        margin: 0;
-        padding: 0;
+        margin: 0px;
+        padding: 0px;
+      }
+
+      .chromeframe {
+        margin: 0.2em 0;
+        background: #ccc;
+        color: #000;
+        padding: 0.2em 0;
       }
 
       #loader-wrapper {
@@ -27,73 +42,79 @@
         position: relative;
         left: 50%;
         top: 50%;
-        width: 120px;
-        height: 120px;
-        margin: -75px 0 0 -75px;
+        width: 7.8125vw;
+        height: 7.8125vw;
+        margin: -3.90625vw 0 0 -3.90625vw;
         border-radius: 50%;
-        border: 3px solid transparent;
-        /* COLOR 1 */
+        border: 0.15625vw solid transparent;
         border-top-color: #fff;
-        /* Chrome, Opera 15+, Safari 5+ */
-        /* Chrome, Opera 15+, Safari 5+ */
-        /* Chrome, Opera 15+, Safari 5+ */
-        /* Chrome, Opera 15+, Safari 5+ */
+        -webkit-animation: spin 2s linear infinite;
+        -ms-animation: spin 2s linear infinite;
+        -moz-animation: spin 2s linear infinite;
+        -o-animation: spin 2s linear infinite;
         animation: spin 2s linear infinite;
-        /* Chrome, Firefox 16+, IE 10+, Opera */
         z-index: 1001;
       }
 
       #loader:before {
         content: '';
         position: absolute;
-        top: 5px;
-        left: 5px;
-        right: 5px;
-        bottom: 5px;
+        top: 0.260417vw;
+        left: 0.260417vw;
+        right: 0.260417vw;
+        bottom: 0.260417vw;
         border-radius: 50%;
-        border: 3px solid transparent;
-        /* COLOR 2 */
+        border: 0.15625vw solid transparent;
         border-top-color: #fff;
-        /* Chrome, Opera 15+, Safari 5+ */
-        /* Chrome, Opera 15+, Safari 5+ */
-        /* Chrome, Opera 15+, Safari 5+ */
-        /* Chrome, Opera 15+, Safari 5+ */
+        -webkit-animation: spin 3s linear infinite;
+        -moz-animation: spin 3s linear infinite;
+        -o-animation: spin 3s linear infinite;
+        -ms-animation: spin 3s linear infinite;
         animation: spin 3s linear infinite;
-        /* Chrome, Firefox 16+, IE 10+, Opera */
       }
 
       #loader:after {
         content: '';
         position: absolute;
-        top: 15px;
-        left: 15px;
-        right: 15px;
-        bottom: 15px;
+        top: 0.78125vw;
+        left: 0.78125vw;
+        right: 0.78125vw;
+        bottom: 0.78125vw;
         border-radius: 50%;
-        border: 3px solid transparent;
+        border: 0.15625vw solid transparent;
         border-top-color: #fff;
-        /* COLOR 3 */
-        /* Chrome, Opera 15+, Safari 5+ */
-        /* Chrome, Opera 15+, Safari 5+ */
-        /* Chrome, Opera 15+, Safari 5+ */
-        /* Chrome, Opera 15+, Safari 5+ */
+        -moz-animation: spin 1.5s linear infinite;
+        -o-animation: spin 1.5s linear infinite;
+        -ms-animation: spin 1.5s linear infinite;
+        -webkit-animation: spin 1.5s linear infinite;
         animation: spin 1.5s linear infinite;
-        /* Chrome, Firefox 16+, IE 10+, Opera */
+      }
+
+      @-webkit-keyframes spin {
+        0% {
+          -webkit-transform: rotate(0deg);
+          -ms-transform: rotate(0deg);
+          transform: rotate(0deg);
+        }
+
+        100% {
+          -webkit-transform: rotate(360deg);
+          -ms-transform: rotate(360deg);
+          transform: rotate(360deg);
+        }
       }
 
       @keyframes spin {
         0% {
-          /* Chrome, Opera 15+, Safari 3.1+ */
-          /* IE 9 */
+          -webkit-transform: rotate(0deg);
+          -ms-transform: rotate(0deg);
           transform: rotate(0deg);
-          /* Firefox 16+, IE 10+, Opera */
         }
 
         100% {
-          /* Chrome, Opera 15+, Safari 3.1+ */
-          /* IE 9 */
+          -webkit-transform: rotate(360deg);
+          -ms-transform: rotate(360deg);
           transform: rotate(360deg);
-          /* Firefox 16+, IE 10+, Opera */
         }
       }
 
@@ -102,13 +123,11 @@
         top: 0;
         width: 51%;
         height: 100%;
-        background: #0960bd;
-        /* Old browsers */
-        z-index: 99;
-        /* Chrome, Opera 15+, Safari 3.1+ */
-        /* IE 9 */
+        background: #7171c6;
+        z-index: 1000;
+        -webkit-transform: translateX(0);
+        -ms-transform: translateX(0);
         transform: translateX(0);
-        /* Firefox 16+, IE 10+, Opera */
       }
 
       #loader-wrapper .loader-section.section-left {
@@ -119,88 +138,82 @@
         right: 0;
       }
 
-      /* Loaded */
       .loaded #loader-wrapper .loader-section.section-left {
-        /* Chrome, Opera 15+, Safari 3.1+ */
-        /* IE 9 */
+        -webkit-transform: translateX(-100%);
+        -ms-transform: translateX(-100%);
         transform: translateX(-100%);
-        /* Firefox 16+, IE 10+, Opera */
+        -webkit-transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
         transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
       }
 
       .loaded #loader-wrapper .loader-section.section-right {
-        /* Chrome, Opera 15+, Safari 3.1+ */
-        /* IE 9 */
+        -webkit-transform: translateX(100%);
+        -ms-transform: translateX(100%);
         transform: translateX(100%);
-        /* Firefox 16+, IE 10+, Opera */
+        -webkit-transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
         transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
       }
 
       .loaded #loader {
         opacity: 0;
+        -webkit-transition: all 0.3s ease-out;
         transition: all 0.3s ease-out;
       }
 
       .loaded #loader-wrapper {
         visibility: hidden;
-        /* Chrome, Opera 15+, Safari 3.1+ */
-        /* IE 9 */
+        -webkit-transform: translateY(-100%);
+        -ms-transform: translateY(-100%);
         transform: translateY(-100%);
-        /* Firefox 16+, IE 10+, Opera */
+        -webkit-transition: all 0.3s 1s ease-out;
         transition: all 0.3s 1s ease-out;
+      }
+
+      .no-js #loader-wrapper {
+        display: none;
+      }
+
+      .no-js h1 {
+        color: #222222;
       }
 
       #loader-wrapper .load_title {
         font-family: 'Open Sans';
         color: #fff;
-        font-size: 14px;
+        font-size: 0.989583vw;
         width: 100%;
         text-align: center;
-        z-index: 1000;
+        z-index: 9999999999999;
         position: absolute;
         top: 60%;
         opacity: 1;
-        line-height: 30px;
+        line-height: 1.5625vw;
       }
 
       #loader-wrapper .load_title span {
         font-weight: normal;
         font-style: italic;
-        font-size: 14px;
+        font-size: 0.677083vw;
         color: #fff;
         opacity: 0.5;
       }
     </style>
-    <script type="module" crossorigin src="/flow/assets/index.043894ba.js"></script>
-    <link rel="modulepreload" crossorigin href="/flow/assets/jsplumb.b790d42e.js">
-    <link rel="modulepreload" crossorigin href="/flow/assets/vueuse.0e95ccf4.js">
-    <link rel="modulepreload" crossorigin href="/flow/assets/lodash.ad1ba24f.js">
-    <link rel="modulepreload" crossorigin href="/flow/assets/vendor.e68f44c2.js">
-    <link rel="modulepreload" crossorigin href="/flow/assets/antdv.77d2a9e8.js">
-    <link rel="modulepreload" crossorigin href="/flow/assets/pinia.9a1a2898.js">
-    <link rel="modulepreload" crossorigin href="/flow/assets/three.f378adfd.js">
-    <link rel="stylesheet" href="/flow/assets/vendor.f13f6413.css">
-    <link rel="stylesheet" href="/flow/assets/antdv.adf6a4ec.css">
-    <link rel="stylesheet" href="/flow/assets/index.c37b2ba2.css">
+    <script type="module" crossorigin src="/flow/assets/js/index-LX1IYwgs-1757934650657.js"></script>
+    <link rel="modulepreload" crossorigin href="/flow/assets/js/vendor-Bq5UsiO5-1757934650657.js">
+    <link rel="modulepreload" crossorigin href="/flow/assets/js/vue-DS1gyS7H-1757934650657.js">
+    <link rel="modulepreload" crossorigin href="/flow/assets/js/echarts-BDul5khj-1757934650657.js">
+    <link rel="stylesheet" crossorigin href="/flow/assets/css/vendor-B7XtHIBL-1757934650657.css">
+    <link rel="stylesheet" crossorigin href="/flow/assets/css/index-DSXrMJxA-1757934650657.css">
   </head>
+
   <body>
     <div id="app">
       <div id="loader-wrapper">
         <div id="loader"></div>
         <div class="loader-section section-left"></div>
         <div class="loader-section section-right"></div>
-        <div class="load_title">正在加载,请耐心等待...</div>
+        <div class="load_title">正在加载系统资源，请耐心等待</div>
       </div>
-    </div>
-    
-    <script>
-      // var _hmt = _hmt || [];
-      // (function () {
-      //   var hm = document.createElement('script');
-      //   hm.src = 'https://hm.baidu.com/hm.js?52dc0243358563c7227d8f3074173ab9';
-      //   var s = document.getElementsByTagName('script')[0];
-      //   s.parentNode.insertBefore(hm, s);
-      // })();
-    </script>
+    </div>
   </body>
 </html>
